@@ -4,6 +4,10 @@
 
 The pin-check will be a printed circuit board (PCB) for hand-wired keyboards that uses all through-hole components. It is inspired by the [Plaid](https://github.com/hsgw/plaid), [Discipline](https://github.com/coseyfannitutti/discipline), and [Postage Board](https://github.com/LifeIsOnTheWire/Postage-Board/blob/master/README.md). It's called the pin-check becuase it's a smaller pattern than plaid and [Gingham](https://yiancar-designs.com/product/gingham/).
 
+It might look something like this.
+
+![3D render of PCB](pin-check.png)
+
 It will use [USBaspLoader](https://github.com/baerwolf/USBaspLoader) as a bootloader.
 
 Eventually this README will include instructions to:
