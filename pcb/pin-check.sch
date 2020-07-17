@@ -391,31 +391,26 @@ Text Label 2900 1500 0    50   ~ 0
 Row0
 Text Label 2900 2400 0    50   ~ 0
 Col1
-NoConn ~ 2900 3200
-NoConn ~ 2900 3300
-NoConn ~ 2900 3600
-NoConn ~ 2900 3800
-NoConn ~ 2900 3900
 $Comp
 L Mechanical:MountingHole_Pad H1
 U 1 1 5F1D617B
-P 4400 5650
-F 0 "H1" V 4354 5800 50  0000 L CNN
-F 1 "Pad" V 4445 5800 50  0000 L CNN
-F 2 "Connector_PinSocket_2.00mm:PinSocket_1x01_P2.00mm_Vertical" H 4400 5650 50  0001 C CNN
-F 3 "~" H 4400 5650 50  0001 C CNN
-	1    4400 5650
+P 3800 6000
+F 0 "H1" V 3754 6150 50  0000 L CNN
+F 1 "Pad" V 3845 6150 50  0000 L CNN
+F 2 "Connector_PinSocket_2.00mm:PinSocket_1x01_P2.00mm_Vertical" H 3800 6000 50  0001 C CNN
+F 3 "~" H 3800 6000 50  0001 C CNN
+	1    3800 6000
 	0    1    1    0   
 $EndComp
 $Comp
-L Mechanical:MountingHole_Pad H6
+L Mechanical:MountingHole_Pad H2
 U 1 1 5F1D8B67
-P 5350 5650
-F 0 "H6" V 5304 5800 50  0000 L CNN
-F 1 "Pad" V 5395 5800 50  0000 L CNN
-F 2 "Connector_PinSocket_2.00mm:PinSocket_1x01_P2.00mm_Vertical" H 5350 5650 50  0001 C CNN
-F 3 "~" H 5350 5650 50  0001 C CNN
-	1    5350 5650
+P 4650 6000
+F 0 "H2" V 4604 6150 50  0000 L CNN
+F 1 "Pad" V 4695 6150 50  0000 L CNN
+F 2 "Connector_PinSocket_2.00mm:PinSocket_1x01_P2.00mm_Vertical" H 4650 6000 50  0001 C CNN
+F 3 "~" H 4650 6000 50  0001 C CNN
+	1    4650 6000
 	0    1    1    0   
 $EndComp
 $Comp
@@ -510,9 +505,9 @@ Wire Wire Line
 	3300 2100 2900 2100
 Wire Wire Line
 	2900 2200 3300 2200
-Text Label 5250 5650 2    50   ~ 0
+Text Label 4550 6000 2    50   ~ 0
 Col0Ext
-Text Label 4300 5650 2    50   ~ 0
+Text Label 3700 6000 2    50   ~ 0
 Row0Ext
 Connection ~ 4750 4900
 Text Label 4250 5000 3    50   ~ 0
@@ -737,69 +732,69 @@ Col4Ext
 Text Label 8800 5000 3    50   ~ 0
 Col5Ext
 $Comp
-L Mechanical:MountingHole_Pad H7
+L Mechanical:MountingHole_Pad H3
 U 1 1 5F1F0A80
-P 5350 5850
-F 0 "H7" V 5304 6000 50  0000 L CNN
-F 1 "Pad" V 5395 6000 50  0000 L CNN
-F 2 "Connector_PinSocket_2.00mm:PinSocket_1x01_P2.00mm_Vertical" H 5350 5850 50  0001 C CNN
-F 3 "~" H 5350 5850 50  0001 C CNN
-	1    5350 5850
+P 4650 6200
+F 0 "H3" V 4604 6350 50  0000 L CNN
+F 1 "Pad" V 4695 6350 50  0000 L CNN
+F 2 "Connector_PinSocket_2.00mm:PinSocket_1x01_P2.00mm_Vertical" H 4650 6200 50  0001 C CNN
+F 3 "~" H 4650 6200 50  0001 C CNN
+	1    4650 6200
 	0    1    1    0   
 $EndComp
 $Comp
-L Mechanical:MountingHole_Pad H8
+L Mechanical:MountingHole_Pad H4
 U 1 1 5F1F0C61
-P 5350 6050
-F 0 "H8" V 5304 6200 50  0000 L CNN
-F 1 "Pad" V 5395 6200 50  0000 L CNN
-F 2 "Connector_PinSocket_2.00mm:PinSocket_1x01_P2.00mm_Vertical" H 5350 6050 50  0001 C CNN
-F 3 "~" H 5350 6050 50  0001 C CNN
-	1    5350 6050
+P 4650 6400
+F 0 "H4" V 4604 6550 50  0000 L CNN
+F 1 "Pad" V 4695 6550 50  0000 L CNN
+F 2 "Connector_PinSocket_2.00mm:PinSocket_1x01_P2.00mm_Vertical" H 4650 6400 50  0001 C CNN
+F 3 "~" H 4650 6400 50  0001 C CNN
+	1    4650 6400
 	0    1    1    0   
 $EndComp
 $Comp
-L Mechanical:MountingHole_Pad H9
+L Mechanical:MountingHole_Pad H5
 U 1 1 5F1F0FF7
-P 5350 6250
-F 0 "H9" V 5304 6400 50  0000 L CNN
-F 1 "Pad" V 5395 6400 50  0000 L CNN
-F 2 "Connector_PinSocket_2.00mm:PinSocket_1x01_P2.00mm_Vertical" H 5350 6250 50  0001 C CNN
-F 3 "~" H 5350 6250 50  0001 C CNN
-	1    5350 6250
+P 4650 6600
+F 0 "H5" V 4604 6750 50  0000 L CNN
+F 1 "Pad" V 4695 6750 50  0000 L CNN
+F 2 "Connector_PinSocket_2.00mm:PinSocket_1x01_P2.00mm_Vertical" H 4650 6600 50  0001 C CNN
+F 3 "~" H 4650 6600 50  0001 C CNN
+	1    4650 6600
 	0    1    1    0   
 $EndComp
 $Comp
-L Mechanical:MountingHole_Pad H10
+L Mechanical:MountingHole_Pad H6
 U 1 1 5F1F1425
-P 5350 6450
-F 0 "H10" V 5304 6600 50  0000 L CNN
-F 1 "Pad" V 5395 6600 50  0000 L CNN
-F 2 "Connector_PinSocket_2.00mm:PinSocket_1x01_P2.00mm_Vertical" H 5350 6450 50  0001 C CNN
-F 3 "~" H 5350 6450 50  0001 C CNN
-	1    5350 6450
+P 4650 6800
+F 0 "H6" V 4604 6950 50  0000 L CNN
+F 1 "Pad" V 4695 6950 50  0000 L CNN
+F 2 "Connector_PinSocket_2.00mm:PinSocket_1x01_P2.00mm_Vertical" H 4650 6800 50  0001 C CNN
+F 3 "~" H 4650 6800 50  0001 C CNN
+	1    4650 6800
 	0    1    1    0   
 $EndComp
 $Comp
-L Mechanical:MountingHole_Pad H11
+L Mechanical:MountingHole_Pad H7
 U 1 1 5F1F1840
-P 5350 6650
-F 0 "H11" V 5304 6800 50  0000 L CNN
-F 1 "Pad" V 5395 6800 50  0000 L CNN
-F 2 "Connector_PinSocket_2.00mm:PinSocket_1x01_P2.00mm_Vertical" H 5350 6650 50  0001 C CNN
-F 3 "~" H 5350 6650 50  0001 C CNN
-	1    5350 6650
+P 4650 7000
+F 0 "H7" V 4604 7150 50  0000 L CNN
+F 1 "Pad" V 4695 7150 50  0000 L CNN
+F 2 "Connector_PinSocket_2.00mm:PinSocket_1x01_P2.00mm_Vertical" H 4650 7000 50  0001 C CNN
+F 3 "~" H 4650 7000 50  0001 C CNN
+	1    4650 7000
 	0    1    1    0   
 $EndComp
-Text Label 5250 5850 2    50   ~ 0
+Text Label 4550 6200 2    50   ~ 0
 Col1Ext
-Text Label 5250 6050 2    50   ~ 0
+Text Label 4550 6400 2    50   ~ 0
 Col2Ext
-Text Label 5250 6250 2    50   ~ 0
+Text Label 4550 6600 2    50   ~ 0
 Col3Ext
-Text Label 5250 6450 2    50   ~ 0
+Text Label 4550 6800 2    50   ~ 0
 Col4Ext
-Text Label 5250 6650 2    50   ~ 0
+Text Label 4550 7000 2    50   ~ 0
 Col5Ext
 Text Label 5200 4200 1    50   ~ 0
 Col1
@@ -812,57 +807,57 @@ Col4
 Text Label 8800 4200 1    50   ~ 0
 Col5
 $Comp
-L Mechanical:MountingHole_Pad H2
+L Mechanical:MountingHole_Pad H8
 U 1 1 5F25327F
-P 4400 5850
-F 0 "H2" V 4354 6000 50  0000 L CNN
-F 1 "Pad" V 4445 6000 50  0000 L CNN
-F 2 "Connector_PinSocket_2.00mm:PinSocket_1x01_P2.00mm_Vertical" H 4400 5850 50  0001 C CNN
-F 3 "~" H 4400 5850 50  0001 C CNN
-	1    4400 5850
+P 5350 6000
+F 0 "H8" V 5304 6150 50  0000 L CNN
+F 1 "Pad" V 5395 6150 50  0000 L CNN
+F 2 "Connector_PinSocket_2.00mm:PinSocket_1x01_P2.00mm_Vertical" H 5350 6000 50  0001 C CNN
+F 3 "~" H 5350 6000 50  0001 C CNN
+	1    5350 6000
 	0    1    1    0   
 $EndComp
 $Comp
-L Mechanical:MountingHole_Pad H3
+L Mechanical:MountingHole_Pad H9
 U 1 1 5F25363B
-P 4400 6050
-F 0 "H3" V 4354 6200 50  0000 L CNN
-F 1 "Pad" V 4445 6200 50  0000 L CNN
-F 2 "Connector_PinSocket_2.00mm:PinSocket_1x01_P2.00mm_Vertical" H 4400 6050 50  0001 C CNN
-F 3 "~" H 4400 6050 50  0001 C CNN
-	1    4400 6050
+P 5350 6200
+F 0 "H9" V 5304 6350 50  0000 L CNN
+F 1 "Pad" V 5395 6350 50  0000 L CNN
+F 2 "Connector_PinSocket_2.00mm:PinSocket_1x01_P2.00mm_Vertical" H 5350 6200 50  0001 C CNN
+F 3 "~" H 5350 6200 50  0001 C CNN
+	1    5350 6200
 	0    1    1    0   
 $EndComp
 $Comp
-L Mechanical:MountingHole_Pad H4
+L Mechanical:MountingHole_Pad H10
 U 1 1 5F253939
-P 4400 6250
-F 0 "H4" V 4354 6400 50  0000 L CNN
-F 1 "Pad" V 4445 6400 50  0000 L CNN
-F 2 "Connector_PinSocket_2.00mm:PinSocket_1x01_P2.00mm_Vertical" H 4400 6250 50  0001 C CNN
-F 3 "~" H 4400 6250 50  0001 C CNN
-	1    4400 6250
+P 5350 6400
+F 0 "H10" V 5304 6550 50  0000 L CNN
+F 1 "Pad" V 5395 6550 50  0000 L CNN
+F 2 "Connector_PinSocket_2.00mm:PinSocket_1x01_P2.00mm_Vertical" H 5350 6400 50  0001 C CNN
+F 3 "~" H 5350 6400 50  0001 C CNN
+	1    5350 6400
 	0    1    1    0   
 $EndComp
 $Comp
-L Mechanical:MountingHole_Pad H5
+L Mechanical:MountingHole_Pad H11
 U 1 1 5F253BB2
-P 4400 6450
-F 0 "H5" V 4354 6600 50  0000 L CNN
-F 1 "Pad" V 4445 6600 50  0000 L CNN
-F 2 "Connector_PinSocket_2.00mm:PinSocket_1x01_P2.00mm_Vertical" H 4400 6450 50  0001 C CNN
-F 3 "~" H 4400 6450 50  0001 C CNN
-	1    4400 6450
+P 5350 6600
+F 0 "H11" V 5304 6750 50  0000 L CNN
+F 1 "Pad" V 5395 6750 50  0000 L CNN
+F 2 "Connector_PinSocket_2.00mm:PinSocket_1x01_P2.00mm_Vertical" H 5350 6600 50  0001 C CNN
+F 3 "~" H 5350 6600 50  0001 C CNN
+	1    5350 6600
 	0    1    1    0   
 $EndComp
-Text Label 4300 5850 2    50   ~ 0
-Row1
-Text Label 4300 6050 2    50   ~ 0
-Row2
-Text Label 4300 6250 2    50   ~ 0
-Row3
-Text Label 4300 6450 2    50   ~ 0
-Row4
+Text Label 5250 6000 2    50   ~ 0
+B1
+Text Label 5250 6200 2    50   ~ 0
+B2
+Text Label 5250 6400 2    50   ~ 0
+B3
+Text Label 5250 6600 2    50   ~ 0
+B4
 $Comp
 L MCU_Microchip_ATmega:ATmega328P-PU U1
 U 1 1 5F096C08
@@ -875,14 +870,103 @@ F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/ATmega48A-PA-88A-PA-168A-PA
 	1    0    0    -1  
 $EndComp
 Text Label 2900 1600 0    50   ~ 0
-Row1
+B1
 Text Label 2900 1700 0    50   ~ 0
-Row2
+B2
 Text Label 2900 1800 0    50   ~ 0
-Row3
+B3
 Text Label 2900 1900 0    50   ~ 0
-Row4
+B4
 Text Label 2900 2000 0    50   ~ 0
 Col0
-NoConn ~ 2900 2900
+Text Label 2900 2900 0    50   ~ 0
+C5
+Text Label 2900 3200 0    50   ~ 0
+D0
+Text Label 2900 3300 0    50   ~ 0
+D1
+Text Label 2900 3600 0    50   ~ 0
+D4
+Text Label 2900 3800 0    50   ~ 0
+D6
+Text Label 2900 3900 0    50   ~ 0
+D7
+$Comp
+L Mechanical:MountingHole_Pad H12
+U 1 1 5F147BE2
+P 5350 6800
+F 0 "H12" V 5304 6950 50  0000 L CNN
+F 1 "Pad" V 5395 6950 50  0000 L CNN
+F 2 "Connector_PinSocket_2.00mm:PinSocket_1x01_P2.00mm_Vertical" H 5350 6800 50  0001 C CNN
+F 3 "~" H 5350 6800 50  0001 C CNN
+	1    5350 6800
+	0    1    1    0   
+$EndComp
+Text Label 5250 6800 2    50   ~ 0
+C5
+$Comp
+L Mechanical:MountingHole_Pad H13
+U 1 1 5F148976
+P 6050 6000
+F 0 "H13" V 6004 6150 50  0000 L CNN
+F 1 "Pad" V 6095 6150 50  0000 L CNN
+F 2 "Connector_PinSocket_2.00mm:PinSocket_1x01_P2.00mm_Vertical" H 6050 6000 50  0001 C CNN
+F 3 "~" H 6050 6000 50  0001 C CNN
+	1    6050 6000
+	0    1    1    0   
+$EndComp
+Text Label 5950 6000 2    50   ~ 0
+D0
+$Comp
+L Mechanical:MountingHole_Pad H14
+U 1 1 5F148FDF
+P 6050 6200
+F 0 "H14" V 6004 6350 50  0000 L CNN
+F 1 "Pad" V 6095 6350 50  0000 L CNN
+F 2 "Connector_PinSocket_2.00mm:PinSocket_1x01_P2.00mm_Vertical" H 6050 6200 50  0001 C CNN
+F 3 "~" H 6050 6200 50  0001 C CNN
+	1    6050 6200
+	0    1    1    0   
+$EndComp
+Text Label 5950 6200 2    50   ~ 0
+D1
+$Comp
+L Mechanical:MountingHole_Pad H15
+U 1 1 5F149630
+P 6050 6400
+F 0 "H15" V 6004 6550 50  0000 L CNN
+F 1 "Pad" V 6095 6550 50  0000 L CNN
+F 2 "Connector_PinSocket_2.00mm:PinSocket_1x01_P2.00mm_Vertical" H 6050 6400 50  0001 C CNN
+F 3 "~" H 6050 6400 50  0001 C CNN
+	1    6050 6400
+	0    1    1    0   
+$EndComp
+Text Label 5950 6400 2    50   ~ 0
+D4
+$Comp
+L Mechanical:MountingHole_Pad H16
+U 1 1 5F149D86
+P 6050 6600
+F 0 "H16" V 6004 6750 50  0000 L CNN
+F 1 "Pad" V 6095 6750 50  0000 L CNN
+F 2 "Connector_PinSocket_2.00mm:PinSocket_1x01_P2.00mm_Vertical" H 6050 6600 50  0001 C CNN
+F 3 "~" H 6050 6600 50  0001 C CNN
+	1    6050 6600
+	0    1    1    0   
+$EndComp
+Text Label 5950 6600 2    50   ~ 0
+D6
+$Comp
+L Mechanical:MountingHole_Pad H17
+U 1 1 5F14A419
+P 6050 6800
+F 0 "H17" V 6004 6950 50  0000 L CNN
+F 1 "Pad" V 6095 6950 50  0000 L CNN
+F 2 "Connector_PinSocket_2.00mm:PinSocket_1x01_P2.00mm_Vertical" H 6050 6800 50  0001 C CNN
+F 3 "~" H 6050 6800 50  0001 C CNN
+	1    6050 6800
+	0    1    1    0   
+$EndComp
+Text Label 5950 6800 2    50   ~ 0
+D7
 $EndSCHEMATC
