@@ -3,6 +3,7 @@
 This is a tentative BOM. Keyswitches (SW1 through SW6) and header pins (just solder pads on the PCB) are not included.
 
 | Reference | Quantity | Link |
+| --- | --- | --- |
 | C1, C2 | 2 | https://www.digikey.com/product-detail/en/vishay-bc-components/K220J15C0GH53L2/BC5147-ND/2821627 |
 | D1, D2 | 2 | https://www.digikey.com/product-detail/en/vishay-semiconductor-diodes-division/TZX3V6B-TR/TZX3V6B-TRGICT-ND/9601328 |
 | D3, D4, D5, D6, D7, D8 | https://www.digikey.com/product-detail/en/vishay-semiconductor-diodes-division/1N4148TR/1N4148VSCT-ND/3104297 |
