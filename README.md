@@ -20,3 +20,4 @@ Eventually this README will include instructions to:
 Things that are not supported/planned for various reasons:
 
 * Split keyboard support
+* LEDs
