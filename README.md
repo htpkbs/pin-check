@@ -25,5 +25,3 @@ Things that are not supported/planned for various reasons:
 
 * Split keyboard support
 * LEDs
-
-<p xmlns:dct="http://purl.org/dc/terms/" xmlns:cc="http://creativecommons.org/ns#" class="license-text"><span rel="dct:title">pin-check</span> by <span rel="cc:attributionName">brian@mutualaid.info</span>is licensed under <a href="https://creativecommons.org/licenses/by-nc/4.0">CC BY-NC 4.0</a>.</p>
