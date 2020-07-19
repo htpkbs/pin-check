@@ -18,7 +18,7 @@ Eventually this README will include instructions to:
 * Purchase other case-related things like standoffs and screws
 * Get a PCB manufactured (probably using [OSH Park](https://oshpark.com/))
 * Purchase the components from the [bill of materials](bom.md)
-* Flash USBaspLoader onto the microcontoller unit (MCU), with the PCB mounted on either the left or right side (or the middle 🤷🏻‍♂️) of your keyboard
+* Flash USBaspLoader onto the microcontoller unit (MCU), with the PCB mounted on either the left or right or middle (or wherever you want) of your keyboard (this will require an AVR programmer or wiring up to the GPIO pins of a Raspberry Pi)
 * Solder the components onto the PCB
 * Hand-wire some keyswitches together (need some wire and more diodes for this!) and onto the PCB
 * Create a keymap, etc. and flash QMK onto the MCU
