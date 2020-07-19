@@ -10,6 +10,14 @@
   )
 
   (page A4)
+  (title_block
+    (title pin-check)
+    (rev v0.0.2)
+    (comment 2 https://github.com/brianmutualaid/pin-check/blob/master/LICENSE)
+    (comment 3 "License: BSD 2-Clause")
+    (comment 4 brian@mutualaid.info)
+  )
+
   (layers
     (0 F.Cu signal)
     (31 B.Cu signal)
@@ -712,7 +720,7 @@
     (tags "mounting hole 2.2mm no annular m2")
     (path /5F151956)
     (attr virtual)
-    (fp_text reference H21 (at 0 -3.2) (layer F.SilkS)
+    (fp_text reference H21 (at 0 3.302) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text value MountingHole (at 0 3.2) (layer F.Fab)
@@ -732,7 +740,7 @@
     (tags "mounting hole 2.2mm no annular m2")
     (path /5F150145)
     (attr virtual)
-    (fp_text reference H20 (at 0 -3.2) (layer F.SilkS)
+    (fp_text reference H20 (at 0 3.302) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text value MountingHole (at 0 3.2) (layer F.Fab)
@@ -3111,7 +3119,7 @@
   (segment (start 51.308 49.53) (end 56.896 55.118) (width 0.6) (layer B.Cu) (net 40) (status 20))
   (segment (start 51.308 48.006) (end 51.308 49.53) (width 0.6) (layer B.Cu) (net 40) (status 10))
 
-  (zone (net 2) (net_name GND) (layer F.Cu) (tstamp 5F154576) (hatch edge 0.508)
+  (zone (net 2) (net_name GND) (layer F.Cu) (tstamp 5F13F1D0) (hatch edge 0.508)
     (connect_pads (clearance 0.508))
     (min_thickness 0.254)
     (fill yes (arc_segments 32) (thermal_gap 0.508) (thermal_bridge_width 0.508))
@@ -3888,7 +3896,7 @@
       )
     )
   )
-  (zone (net 2) (net_name GND) (layer B.Cu) (tstamp 5F154573) (hatch edge 0.508)
+  (zone (net 2) (net_name GND) (layer B.Cu) (tstamp 5F13F1CD) (hatch edge 0.508)
     (connect_pads (clearance 0.508))
     (min_thickness 0.254)
     (fill yes (arc_segments 32) (thermal_gap 0.508) (thermal_bridge_width 0.508))

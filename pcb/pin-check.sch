@@ -9,7 +9,7 @@ Date ""
 Rev "v0.0.2"
 Comp ""
 Comment1 ""
-Comment2 "https://github.com/brianmutualaid/pin-check"
+Comment2 "https://github.com/brianmutualaid/pin-check/blob/master/LICENSE"
 Comment3 "License: BSD 2-Clause"
 Comment4 "brian@mutualaid.info"
 $EndDescr

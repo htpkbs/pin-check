@@ -143,7 +143,7 @@ U 1 1 5F152268
 P 8150 2250
 F 0 "P1" H 7650 2350 50  0000 C CNN
 F 1 "USB_C_Receptacle_USB2.0" H 7200 2250 50  0000 C CNN
-F 2 "Connector_USB:USB_C_Receptacle_GCT_USB4085" H 8300 2250 50  0001 C CNN
+F 2 "pin-check:USB_C_GCT_USB4085" H 8300 2250 50  0001 C CNN
 F 3 "https://www.usb.org/sites/default/files/documents/usb_type-c.zip" H 8300 2250 50  0001 C CNN
 	1    8150 2250
 	1    0    0    -1  
