@@ -6,7 +6,7 @@ encoding utf-8
 Sheet 1 1
 Title "pin-check"
 Date ""
-Rev "v0.0.1"
+Rev "v0.0.2"
 Comp ""
 Comment1 ""
 Comment2 "https://github.com/brianmutualaid/pin-check"
@@ -143,7 +143,7 @@ U 1 1 5F152268
 P 8150 2250
 F 0 "P1" H 7650 2350 50  0000 C CNN
 F 1 "USB_C_Receptacle_USB2.0" H 7200 2250 50  0000 C CNN
-F 2 "Connector_USB:USB_C_Receptacle_GCT_USB4085" H 8300 2250 50  0001 C CNN
+F 2 "pin-check:USB_C_GCT_USB4085" H 8300 2250 50  0001 C CNN
 F 3 "https://www.usb.org/sites/default/files/documents/usb_type-c.zip" H 8300 2250 50  0001 C CNN
 	1    8150 2250
 	1    0    0    -1  
@@ -1124,48 +1124,48 @@ Wire Wire Line
 $Comp
 L Mechanical:MountingHole H18
 U 1 1 5F14FC44
-P 8450 6100
-F 0 "H18" H 8550 6146 50  0000 L CNN
-F 1 "MountingHole" H 8550 6055 50  0000 L CNN
-F 2 "MountingHole:MountingHole_2.2mm_M2" H 8450 6100 50  0001 C CNN
-F 3 "~" H 8450 6100 50  0001 C CNN
-	1    8450 6100
+P 8000 6050
+F 0 "H18" H 8100 6096 50  0000 L CNN
+F 1 "MountingHole" H 8100 6005 50  0000 L CNN
+F 2 "MountingHole:MountingHole_2.2mm_M2" H 8000 6050 50  0001 C CNN
+F 3 "~" H 8000 6050 50  0001 C CNN
+	1    8000 6050
 	1    0    0    -1  
 $EndComp
 $Comp
 L Mechanical:MountingHole H20
 U 1 1 5F150145
-P 9200 6100
-F 0 "H20" H 9300 6146 50  0000 L CNN
-F 1 "MountingHole" H 9300 6055 50  0000 L CNN
-F 2 "MountingHole:MountingHole_2.2mm_M2" H 9200 6100 50  0001 C CNN
-F 3 "~" H 9200 6100 50  0001 C CNN
-	1    9200 6100
+P 8750 6050
+F 0 "H20" H 8850 6096 50  0000 L CNN
+F 1 "MountingHole" H 8850 6005 50  0000 L CNN
+F 2 "MountingHole:MountingHole_2.2mm_M2" H 8750 6050 50  0001 C CNN
+F 3 "~" H 8750 6050 50  0001 C CNN
+	1    8750 6050
 	1    0    0    -1  
 $EndComp
 $Comp
 L Mechanical:MountingHole H19
 U 1 1 5F15037C
-P 8450 6300
-F 0 "H19" H 8550 6346 50  0000 L CNN
-F 1 "MountingHole" H 8550 6255 50  0000 L CNN
-F 2 "MountingHole:MountingHole_2.2mm_M2" H 8450 6300 50  0001 C CNN
-F 3 "~" H 8450 6300 50  0001 C CNN
-	1    8450 6300
+P 8000 6250
+F 0 "H19" H 8100 6296 50  0000 L CNN
+F 1 "MountingHole" H 8100 6205 50  0000 L CNN
+F 2 "MountingHole:MountingHole_2.2mm_M2" H 8000 6250 50  0001 C CNN
+F 3 "~" H 8000 6250 50  0001 C CNN
+	1    8000 6250
 	1    0    0    -1  
 $EndComp
 $Comp
 L Mechanical:MountingHole H21
 U 1 1 5F151956
-P 9200 6300
-F 0 "H21" H 9300 6346 50  0000 L CNN
-F 1 "MountingHole" H 9300 6255 50  0000 L CNN
-F 2 "MountingHole:MountingHole_2.2mm_M2" H 9200 6300 50  0001 C CNN
-F 3 "~" H 9200 6300 50  0001 C CNN
-	1    9200 6300
+P 8750 6250
+F 0 "H21" H 8850 6296 50  0000 L CNN
+F 1 "MountingHole" H 8850 6205 50  0000 L CNN
+F 2 "MountingHole:MountingHole_2.2mm_M2" H 8750 6250 50  0001 C CNN
+F 3 "~" H 8750 6250 50  0001 C CNN
+	1    8750 6250
 	1    0    0    -1  
 $EndComp
-Text Notes 8750 5950 0    63   ~ 0
+Text Notes 8300 5900 0    63   ~ 0
 Mounting Holes
 $Comp
 L Device:R R7

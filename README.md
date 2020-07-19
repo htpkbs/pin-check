@@ -6,9 +6,9 @@ The pin-check will be a printed circuit board (PCB) for hand-wired keyboards tha
 
 It might look something like this.
 
-![3D render of front of PCB](pin-check-front.png)
+![3D render of front of PCB](pcb/pin-check-front.png)
 
-![3D render of back of PCB](pin-check-back.png)
+![3D render of back of PCB](pcb/pin-check-back.png)
 
 It will use [USBaspLoader](https://github.com/baerwolf/USBaspLoader) as a bootloader.
 
