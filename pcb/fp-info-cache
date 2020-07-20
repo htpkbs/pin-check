@@ -1,4 +1,4 @@
-18508643619504496
+18511833549102496
 Battery
 BatteryHolder_Bulgin_BX0036_1xC
 Bulgin Battery Holder, BX0036, Battery Type C (https://www.bulgin.com/products/pub/media/bulgin/data/Battery_holders.pdf)
@@ -81508,7 +81508,21 @@ Diode DO-35_SOD27 series Axial Horizontal pin pitch 7.62mm  length 4mm diameter 
 2
 2
 pin-check
+USB_C_GCT_USB4085
+
+
+0
+20
+17
 pin-check
+pin-check
+
+
+0
+0
+0
+pin-check
+pin-check-pattern
 
 
 0

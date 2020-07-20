@@ -6,7 +6,7 @@ encoding utf-8
 Sheet 1 1
 Title "pin-check"
 Date ""
-Rev "v0.0.2"
+Rev "v0.1.0"
 Comp ""
 Comment1 ""
 Comment2 "https://github.com/brianmutualaid/pin-check/blob/master/LICENSE"
@@ -381,23 +381,23 @@ Col1
 $Comp
 L Mechanical:MountingHole_Pad H1
 U 1 1 5F1D617B
-P 3250 6250
-F 0 "H1" V 3204 6400 50  0000 L CNN
-F 1 "Pad" V 3295 6400 50  0000 L CNN
-F 2 "Connector_Wire:SolderWire-0.5sqmm_1x01_D0.9mm_OD2.1mm" H 3250 6250 50  0001 C CNN
-F 3 "~" H 3250 6250 50  0001 C CNN
-	1    3250 6250
+P 3250 5900
+F 0 "H1" V 3204 6050 50  0000 L CNN
+F 1 "Pad" V 3295 6050 50  0000 L CNN
+F 2 "Connector_Wire:SolderWire-0.5sqmm_1x01_D0.9mm_OD2.1mm" H 3250 5900 50  0001 C CNN
+F 3 "~" H 3250 5900 50  0001 C CNN
+	1    3250 5900
 	0    1    1    0   
 $EndComp
 $Comp
 L Mechanical:MountingHole_Pad H2
 U 1 1 5F1D8B67
-P 4100 6250
-F 0 "H2" V 4054 6400 50  0000 L CNN
-F 1 "Pad" V 4145 6400 50  0000 L CNN
-F 2 "Connector_Wire:SolderWire-0.5sqmm_1x01_D0.9mm_OD2.1mm" H 4100 6250 50  0001 C CNN
-F 3 "~" H 4100 6250 50  0001 C CNN
-	1    4100 6250
+P 4000 5900
+F 0 "H2" V 3954 6050 50  0000 L CNN
+F 1 "Pad" V 4045 6050 50  0000 L CNN
+F 2 "Connector_Wire:SolderWire-0.5sqmm_1x01_D0.9mm_OD2.1mm" H 4000 5900 50  0001 C CNN
+F 3 "~" H 4000 5900 50  0001 C CNN
+	1    4000 5900
 	0    1    1    0   
 $EndComp
 $Comp
@@ -492,354 +492,271 @@ Wire Wire Line
 	3050 2800 2650 2800
 Wire Wire Line
 	2650 2900 3050 2900
-Text Label 4000 6250 2    50   ~ 0
+Text Label 3900 5900 2    50   ~ 0
 Col0Ext
-Text Label 3150 6250 2    50   ~ 0
+Text Label 3150 5900 2    50   ~ 0
 Row0Ext
-Connection ~ 5050 5050
-Text Label 4550 5150 3    50   ~ 0
+Connection ~ 5600 4750
+Text Label 5100 4850 3    50   ~ 0
 Col0Ext
 Wire Wire Line
-	4450 5050 5050 5050
+	5000 4750 5600 4750
 Wire Wire Line
-	4600 4750 4550 4750
+	5150 4450 5100 4450
 Wire Wire Line
-	5000 4750 5050 4750
-Text Label 4450 5050 2    50   ~ 0
+	5550 4450 5600 4450
+Text Label 5000 4750 2    50   ~ 0
 Row0
 $Comp
 L Device:D D1
 U 1 1 5F10EEDE
-P 5050 4900
-F 0 "D1" V 5096 4820 50  0000 R CNN
-F 1 "1N4148" V 5005 4820 50  0000 R CNN
-F 2 "pin-check:D_DO-35_SOD27_P5.08mm_Horizontal" H 5050 4900 50  0001 C CNN
-F 3 "~" H 5050 4900 50  0001 C CNN
-	1    5050 4900
+P 5600 4600
+F 0 "D1" V 5646 4520 50  0000 R CNN
+F 1 "1N4148" V 5555 4520 50  0000 R CNN
+F 2 "pin-check:D_DO-35_SOD27_P5.08mm_Horizontal" H 5600 4600 50  0001 C CNN
+F 3 "~" H 5600 4600 50  0001 C CNN
+	1    5600 4600
 	0    -1   -1   0   
 $EndComp
 $Comp
 L Switch:SW_Push SW1
 U 1 1 5F10BCBB
-P 4800 4750
-F 0 "SW1" H 4800 5035 50  0000 C CNN
-F 1 "SW_Push" H 4800 4944 50  0000 C CNN
-F 2 "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB" H 4800 4950 50  0001 C CNN
-F 3 "~" H 4800 4950 50  0001 C CNN
-	1    4800 4750
+P 5350 4450
+F 0 "SW1" H 5350 4735 50  0000 C CNN
+F 1 "SW_Push" H 5350 4644 50  0000 C CNN
+F 2 "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB" H 5350 4650 50  0001 C CNN
+F 3 "~" H 5350 4650 50  0001 C CNN
+	1    5350 4450
 	1    0    0    -1  
 $EndComp
 Text Label 2650 3200 0    50   ~ 0
 Col2
 Text Label 2650 3300 0    50   ~ 0
 Col3
-Text Label 2650 3400 0    50   ~ 0
-Col4
-Text Label 2650 3500 0    50   ~ 0
-Col5
 $Comp
 L Switch:SW_Push SW2
 U 1 1 5F1B9489
-P 5700 4750
-F 0 "SW2" H 5700 5035 50  0000 C CNN
-F 1 "SW_Push" H 5700 4944 50  0000 C CNN
-F 2 "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB" H 5700 4950 50  0001 C CNN
-F 3 "~" H 5700 4950 50  0001 C CNN
-	1    5700 4750
+P 6250 4450
+F 0 "SW2" H 6250 4735 50  0000 C CNN
+F 1 "SW_Push" H 6250 4644 50  0000 C CNN
+F 2 "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB" H 6250 4650 50  0001 C CNN
+F 3 "~" H 6250 4650 50  0001 C CNN
+	1    6250 4450
 	1    0    0    -1  
 $EndComp
 $Comp
 L Device:D D2
 U 1 1 5F1BA8D5
-P 5950 4900
-F 0 "D2" V 5996 4820 50  0000 R CNN
-F 1 "1N4148" V 5905 4820 50  0000 R CNN
-F 2 "pin-check:D_DO-35_SOD27_P5.08mm_Horizontal" H 5950 4900 50  0001 C CNN
-F 3 "~" H 5950 4900 50  0001 C CNN
-	1    5950 4900
+P 6500 4600
+F 0 "D2" V 6546 4520 50  0000 R CNN
+F 1 "1N4148" V 6455 4520 50  0000 R CNN
+F 2 "pin-check:D_DO-35_SOD27_P5.08mm_Horizontal" H 6500 4600 50  0001 C CNN
+F 3 "~" H 6500 4600 50  0001 C CNN
+	1    6500 4600
 	0    -1   -1   0   
 $EndComp
 Wire Wire Line
-	5050 5050 5950 5050
-Connection ~ 5950 5050
+	5600 4750 6500 4750
+Connection ~ 6500 4750
 $Comp
 L Switch:SW_Push SW3
 U 1 1 5F1BD5A3
-P 6600 4750
-F 0 "SW3" H 6600 5035 50  0000 C CNN
-F 1 "SW_Push" H 6600 4944 50  0000 C CNN
-F 2 "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB" H 6600 4950 50  0001 C CNN
-F 3 "~" H 6600 4950 50  0001 C CNN
-	1    6600 4750
+P 7150 4450
+F 0 "SW3" H 7150 4735 50  0000 C CNN
+F 1 "SW_Push" H 7150 4644 50  0000 C CNN
+F 2 "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB" H 7150 4650 50  0001 C CNN
+F 3 "~" H 7150 4650 50  0001 C CNN
+	1    7150 4450
 	1    0    0    -1  
 $EndComp
 $Comp
 L Device:D D3
 U 1 1 5F1C1E03
-P 6850 4900
-F 0 "D3" V 6896 4820 50  0000 R CNN
-F 1 "1N4148" V 6805 4820 50  0000 R CNN
-F 2 "pin-check:D_DO-35_SOD27_P5.08mm_Horizontal" H 6850 4900 50  0001 C CNN
-F 3 "~" H 6850 4900 50  0001 C CNN
-	1    6850 4900
+P 7400 4600
+F 0 "D3" V 7446 4520 50  0000 R CNN
+F 1 "1N4148" V 7355 4520 50  0000 R CNN
+F 2 "pin-check:D_DO-35_SOD27_P5.08mm_Horizontal" H 7400 4600 50  0001 C CNN
+F 3 "~" H 7400 4600 50  0001 C CNN
+	1    7400 4600
 	0    -1   -1   0   
 $EndComp
 $Comp
 L Switch:SW_Push SW4
 U 1 1 5F1C23FE
-P 7500 4750
-F 0 "SW4" H 7500 5035 50  0000 C CNN
-F 1 "SW_Push" H 7500 4944 50  0000 C CNN
-F 2 "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB" H 7500 4950 50  0001 C CNN
-F 3 "~" H 7500 4950 50  0001 C CNN
-	1    7500 4750
+P 8050 4450
+F 0 "SW4" H 8050 4735 50  0000 C CNN
+F 1 "SW_Push" H 8050 4644 50  0000 C CNN
+F 2 "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB" H 8050 4650 50  0001 C CNN
+F 3 "~" H 8050 4650 50  0001 C CNN
+	1    8050 4450
 	1    0    0    -1  
 $EndComp
 $Comp
 L Device:D D4
 U 1 1 5F1C2FB9
-P 7750 4900
-F 0 "D4" V 7796 4820 50  0000 R CNN
-F 1 "1N4148" V 7705 4820 50  0000 R CNN
-F 2 "pin-check:D_DO-35_SOD27_P5.08mm_Horizontal" H 7750 4900 50  0001 C CNN
-F 3 "~" H 7750 4900 50  0001 C CNN
-	1    7750 4900
-	0    -1   -1   0   
-$EndComp
-$Comp
-L Switch:SW_Push SW5
-U 1 1 5F1C3550
-P 8400 4750
-F 0 "SW5" H 8400 5035 50  0000 C CNN
-F 1 "SW_Push" H 8400 4944 50  0000 C CNN
-F 2 "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB" H 8400 4950 50  0001 C CNN
-F 3 "~" H 8400 4950 50  0001 C CNN
-	1    8400 4750
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:D D5
-U 1 1 5F1C44A1
-P 8650 4900
-F 0 "D5" V 8696 4820 50  0000 R CNN
-F 1 "1N4148" V 8605 4820 50  0000 R CNN
-F 2 "pin-check:D_DO-35_SOD27_P5.08mm_Horizontal" H 8650 4900 50  0001 C CNN
-F 3 "~" H 8650 4900 50  0001 C CNN
-	1    8650 4900
-	0    -1   -1   0   
-$EndComp
-$Comp
-L Switch:SW_Push SW6
-U 1 1 5F1C4ACE
-P 9300 4750
-F 0 "SW6" H 9300 5035 50  0000 C CNN
-F 1 "SW_Push" H 9300 4944 50  0000 C CNN
-F 2 "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB" H 9300 4950 50  0001 C CNN
-F 3 "~" H 9300 4950 50  0001 C CNN
-	1    9300 4750
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:D D6
-U 1 1 5F1C59CE
-P 9550 4900
-F 0 "D6" V 9596 4820 50  0000 R CNN
-F 1 "1N4148" V 9505 4820 50  0000 R CNN
-F 2 "pin-check:D_DO-35_SOD27_P5.08mm_Horizontal" H 9550 4900 50  0001 C CNN
-F 3 "~" H 9550 4900 50  0001 C CNN
-	1    9550 4900
+P 8300 4600
+F 0 "D4" V 8346 4520 50  0000 R CNN
+F 1 "1N4148" V 8255 4520 50  0000 R CNN
+F 2 "pin-check:D_DO-35_SOD27_P5.08mm_Horizontal" H 8300 4600 50  0001 C CNN
+F 3 "~" H 8300 4600 50  0001 C CNN
+	1    8300 4600
 	0    -1   -1   0   
 $EndComp
 Wire Wire Line
-	5950 5050 6850 5050
-Connection ~ 6850 5050
+	6500 4750 7400 4750
+Connection ~ 7400 4750
 Wire Wire Line
-	6850 5050 7750 5050
-Connection ~ 7750 5050
-Wire Wire Line
-	7750 5050 8650 5050
-Connection ~ 8650 5050
-Wire Wire Line
-	8650 5050 9550 5050
-Connection ~ 9550 5050
-Wire Wire Line
-	9550 5050 10000 5050
-Text Label 10000 5050 0    50   ~ 0
+	7400 4750 8300 4750
+Text Label 8750 4750 0    50   ~ 0
 Row0Ext
 Wire Wire Line
-	4550 4750 4550 5150
+	5100 4450 5100 4850
 Wire Wire Line
-	5900 4750 5950 4750
+	6450 4450 6500 4450
 Wire Wire Line
-	6800 4750 6850 4750
+	7350 4450 7400 4450
 Wire Wire Line
-	7700 4750 7750 4750
+	8250 4450 8300 4450
 Wire Wire Line
-	8600 4750 8650 4750
+	5100 4450 5100 4050
+Connection ~ 5100 4450
 Wire Wire Line
-	9500 4750 9550 4750
+	6050 4450 6050 4050
 Wire Wire Line
-	4550 4750 4550 4350
-Connection ~ 4550 4750
+	6050 4450 6050 4850
+Connection ~ 6050 4450
 Wire Wire Line
-	5500 4750 5500 4350
+	6950 4450 6950 4050
 Wire Wire Line
-	5500 4750 5500 5150
-Connection ~ 5500 4750
+	6950 4450 6950 4850
+Connection ~ 6950 4450
 Wire Wire Line
-	6400 4750 6400 4350
+	7850 4450 7850 4050
 Wire Wire Line
-	6400 4750 6400 5150
-Connection ~ 6400 4750
-Wire Wire Line
-	7300 4750 7300 4350
-Wire Wire Line
-	7300 4750 7300 5150
-Connection ~ 7300 4750
-Wire Wire Line
-	8200 4750 8200 4350
-Wire Wire Line
-	8200 4750 8200 5150
-Connection ~ 8200 4750
-Wire Wire Line
-	9100 4750 9100 4350
-Wire Wire Line
-	9100 4750 9100 5150
-Connection ~ 9100 4750
-Text Label 5500 5150 3    50   ~ 0
+	7850 4450 7850 4850
+Connection ~ 7850 4450
+Text Label 6050 4850 3    50   ~ 0
 Col1Ext
-Text Label 6400 5150 3    50   ~ 0
+Text Label 6950 4850 3    50   ~ 0
 Col2Ext
-Text Label 7300 5150 3    50   ~ 0
+Text Label 7850 4850 3    50   ~ 0
 Col3Ext
-Text Label 8200 5150 3    50   ~ 0
-Col4Ext
-Text Label 9100 5150 3    50   ~ 0
-Col5Ext
 $Comp
 L Mechanical:MountingHole_Pad H3
 U 1 1 5F1F0A80
-P 4100 6450
-F 0 "H3" V 4054 6600 50  0000 L CNN
-F 1 "Pad" V 4145 6600 50  0000 L CNN
-F 2 "Connector_Wire:SolderWire-0.5sqmm_1x01_D0.9mm_OD2.1mm" H 4100 6450 50  0001 C CNN
-F 3 "~" H 4100 6450 50  0001 C CNN
-	1    4100 6450
+P 4000 6100
+F 0 "H3" V 3954 6250 50  0000 L CNN
+F 1 "Pad" V 4045 6250 50  0000 L CNN
+F 2 "Connector_Wire:SolderWire-0.5sqmm_1x01_D0.9mm_OD2.1mm" H 4000 6100 50  0001 C CNN
+F 3 "~" H 4000 6100 50  0001 C CNN
+	1    4000 6100
 	0    1    1    0   
 $EndComp
 $Comp
 L Mechanical:MountingHole_Pad H4
 U 1 1 5F1F0C61
-P 4100 6650
-F 0 "H4" V 4054 6800 50  0000 L CNN
-F 1 "Pad" V 4145 6800 50  0000 L CNN
-F 2 "Connector_Wire:SolderWire-0.5sqmm_1x01_D0.9mm_OD2.1mm" H 4100 6650 50  0001 C CNN
-F 3 "~" H 4100 6650 50  0001 C CNN
-	1    4100 6650
+P 4000 6300
+F 0 "H4" V 3954 6450 50  0000 L CNN
+F 1 "Pad" V 4045 6450 50  0000 L CNN
+F 2 "Connector_Wire:SolderWire-0.5sqmm_1x01_D0.9mm_OD2.1mm" H 4000 6300 50  0001 C CNN
+F 3 "~" H 4000 6300 50  0001 C CNN
+	1    4000 6300
 	0    1    1    0   
 $EndComp
 $Comp
 L Mechanical:MountingHole_Pad H5
 U 1 1 5F1F0FF7
-P 4100 6850
-F 0 "H5" V 4054 7000 50  0000 L CNN
-F 1 "Pad" V 4145 7000 50  0000 L CNN
-F 2 "Connector_Wire:SolderWire-0.5sqmm_1x01_D0.9mm_OD2.1mm" H 4100 6850 50  0001 C CNN
-F 3 "~" H 4100 6850 50  0001 C CNN
-	1    4100 6850
+P 4000 6500
+F 0 "H5" V 3954 6650 50  0000 L CNN
+F 1 "Pad" V 4045 6650 50  0000 L CNN
+F 2 "Connector_Wire:SolderWire-0.5sqmm_1x01_D0.9mm_OD2.1mm" H 4000 6500 50  0001 C CNN
+F 3 "~" H 4000 6500 50  0001 C CNN
+	1    4000 6500
 	0    1    1    0   
 $EndComp
 $Comp
-L Mechanical:MountingHole_Pad H6
+L Mechanical:MountingHole_Pad H13
 U 1 1 5F1F1425
-P 4100 7050
-F 0 "H6" V 4054 7200 50  0000 L CNN
-F 1 "Pad" V 4145 7200 50  0000 L CNN
-F 2 "Connector_Wire:SolderWire-0.5sqmm_1x01_D0.9mm_OD2.1mm" H 4100 7050 50  0001 C CNN
-F 3 "~" H 4100 7050 50  0001 C CNN
-	1    4100 7050
+P 5200 6300
+F 0 "H13" V 5154 6450 50  0000 L CNN
+F 1 "Pad" V 5245 6450 50  0000 L CNN
+F 2 "Connector_Wire:SolderWire-0.5sqmm_1x01_D0.9mm_OD2.1mm" H 5200 6300 50  0001 C CNN
+F 3 "~" H 5200 6300 50  0001 C CNN
+	1    5200 6300
 	0    1    1    0   
 $EndComp
 $Comp
-L Mechanical:MountingHole_Pad H7
+L Mechanical:MountingHole_Pad H12
 U 1 1 5F1F1840
-P 4100 7250
-F 0 "H7" V 4054 7400 50  0000 L CNN
-F 1 "Pad" V 4145 7400 50  0000 L CNN
-F 2 "Connector_Wire:SolderWire-0.5sqmm_1x01_D0.9mm_OD2.1mm" H 4100 7250 50  0001 C CNN
-F 3 "~" H 4100 7250 50  0001 C CNN
-	1    4100 7250
+P 5200 6100
+F 0 "H12" V 5154 6250 50  0000 L CNN
+F 1 "Pad" V 5245 6250 50  0000 L CNN
+F 2 "Connector_Wire:SolderWire-0.5sqmm_1x01_D0.9mm_OD2.1mm" H 5200 6100 50  0001 C CNN
+F 3 "~" H 5200 6100 50  0001 C CNN
+	1    5200 6100
 	0    1    1    0   
 $EndComp
-Text Label 4000 6450 2    50   ~ 0
+Text Label 3900 6100 2    50   ~ 0
 Col1Ext
-Text Label 4000 6650 2    50   ~ 0
+Text Label 3900 6300 2    50   ~ 0
 Col2Ext
-Text Label 4000 6850 2    50   ~ 0
+Text Label 3900 6500 2    50   ~ 0
 Col3Ext
-Text Label 4000 7050 2    50   ~ 0
-Col4Ext
-Text Label 4000 7250 2    50   ~ 0
-Col5Ext
-Text Label 6400 4350 1    50   ~ 0
+Text Label 6950 4050 1    50   ~ 0
 Col2
-Text Label 7300 4350 1    50   ~ 0
+Text Label 7850 4050 1    50   ~ 0
 Col3
-Text Label 8200 4350 1    50   ~ 0
-Col4
-Text Label 9100 4350 1    50   ~ 0
-Col5
 $Comp
-L Mechanical:MountingHole_Pad H8
+L Mechanical:MountingHole_Pad H17
 U 1 1 5F25327F
-P 4800 6250
-F 0 "H8" V 4754 6400 50  0000 L CNN
-F 1 "Pad" V 4845 6400 50  0000 L CNN
-F 2 "Connector_Wire:SolderWire-0.5sqmm_1x01_D0.9mm_OD2.1mm" H 4800 6250 50  0001 C CNN
-F 3 "~" H 4800 6250 50  0001 C CNN
-	1    4800 6250
+P 5800 5900
+F 0 "H17" V 5754 6050 50  0000 L CNN
+F 1 "Pad" V 5845 6050 50  0000 L CNN
+F 2 "Connector_Wire:SolderWire-0.5sqmm_1x01_D0.9mm_OD2.1mm" H 5800 5900 50  0001 C CNN
+F 3 "~" H 5800 5900 50  0001 C CNN
+	1    5800 5900
 	0    1    1    0   
 $EndComp
 $Comp
-L Mechanical:MountingHole_Pad H9
+L Mechanical:MountingHole_Pad H16
 U 1 1 5F25363B
-P 4800 6450
-F 0 "H9" V 4754 6600 50  0000 L CNN
-F 1 "Pad" V 4845 6600 50  0000 L CNN
-F 2 "Connector_Wire:SolderWire-0.5sqmm_1x01_D0.9mm_OD2.1mm" H 4800 6450 50  0001 C CNN
-F 3 "~" H 4800 6450 50  0001 C CNN
-	1    4800 6450
+P 5800 6100
+F 0 "H16" V 5754 6250 50  0000 L CNN
+F 1 "Pad" V 5845 6250 50  0000 L CNN
+F 2 "Connector_Wire:SolderWire-0.5sqmm_1x01_D0.9mm_OD2.1mm" H 5800 6100 50  0001 C CNN
+F 3 "~" H 5800 6100 50  0001 C CNN
+	1    5800 6100
 	0    1    1    0   
 $EndComp
 $Comp
-L Mechanical:MountingHole_Pad H10
+L Mechanical:MountingHole_Pad H15
 U 1 1 5F253939
-P 4800 6650
-F 0 "H10" V 4754 6800 50  0000 L CNN
-F 1 "Pad" V 4845 6800 50  0000 L CNN
-F 2 "Connector_Wire:SolderWire-0.5sqmm_1x01_D0.9mm_OD2.1mm" H 4800 6650 50  0001 C CNN
-F 3 "~" H 4800 6650 50  0001 C CNN
-	1    4800 6650
+P 5800 6300
+F 0 "H15" V 5754 6450 50  0000 L CNN
+F 1 "Pad" V 5845 6450 50  0000 L CNN
+F 2 "Connector_Wire:SolderWire-0.5sqmm_1x01_D0.9mm_OD2.1mm" H 5800 6300 50  0001 C CNN
+F 3 "~" H 5800 6300 50  0001 C CNN
+	1    5800 6300
 	0    1    1    0   
 $EndComp
 $Comp
-L Mechanical:MountingHole_Pad H11
+L Mechanical:MountingHole_Pad H14
 U 1 1 5F253BB2
-P 4800 6850
-F 0 "H11" V 4754 7000 50  0000 L CNN
-F 1 "Pad" V 4845 7000 50  0000 L CNN
-F 2 "Connector_Wire:SolderWire-0.5sqmm_1x01_D0.9mm_OD2.1mm" H 4800 6850 50  0001 C CNN
-F 3 "~" H 4800 6850 50  0001 C CNN
-	1    4800 6850
+P 5800 6500
+F 0 "H14" V 5754 6650 50  0000 L CNN
+F 1 "Pad" V 5845 6650 50  0000 L CNN
+F 2 "Connector_Wire:SolderWire-0.5sqmm_1x01_D0.9mm_OD2.1mm" H 5800 6500 50  0001 C CNN
+F 3 "~" H 5800 6500 50  0001 C CNN
+	1    5800 6500
 	0    1    1    0   
 $EndComp
-Text Label 4700 6250 2    50   ~ 0
+Text Label 5700 5900 2    50   ~ 0
 B1
-Text Label 4700 6450 2    50   ~ 0
+Text Label 5700 6100 2    50   ~ 0
 B2
-Text Label 4700 6650 2    50   ~ 0
+Text Label 5700 6300 2    50   ~ 0
 B3
-Text Label 4700 6850 2    50   ~ 0
+Text Label 5700 6500 2    50   ~ 0
 B4
 $Comp
 L MCU_Microchip_ATmega:ATmega328P-PU U1
@@ -875,82 +792,82 @@ D6
 Text Label 2650 4600 0    50   ~ 0
 D7
 $Comp
-L Mechanical:MountingHole_Pad H12
+L Mechanical:MountingHole_Pad H11
 U 1 1 5F147BE2
-P 4800 7050
-F 0 "H12" V 4754 7200 50  0000 L CNN
-F 1 "Pad" V 4845 7200 50  0000 L CNN
-F 2 "Connector_Wire:SolderWire-0.5sqmm_1x01_D0.9mm_OD2.1mm" H 4800 7050 50  0001 C CNN
-F 3 "~" H 4800 7050 50  0001 C CNN
-	1    4800 7050
+P 5200 5900
+F 0 "H11" V 5154 6050 50  0000 L CNN
+F 1 "Pad" V 5245 6050 50  0000 L CNN
+F 2 "Connector_Wire:SolderWire-0.5sqmm_1x01_D0.9mm_OD2.1mm" H 5200 5900 50  0001 C CNN
+F 3 "~" H 5200 5900 50  0001 C CNN
+	1    5200 5900
 	0    1    1    0   
 $EndComp
-Text Label 4700 7050 2    50   ~ 0
+Text Label 5100 5900 2    50   ~ 0
 C5
 $Comp
-L Mechanical:MountingHole_Pad H13
+L Mechanical:MountingHole_Pad H6
 U 1 1 5F148976
-P 5500 6250
-F 0 "H13" V 5454 6400 50  0000 L CNN
-F 1 "Pad" V 5545 6400 50  0000 L CNN
-F 2 "Connector_Wire:SolderWire-0.5sqmm_1x01_D0.9mm_OD2.1mm" H 5500 6250 50  0001 C CNN
-F 3 "~" H 5500 6250 50  0001 C CNN
-	1    5500 6250
+P 4600 5900
+F 0 "H6" V 4554 6050 50  0000 L CNN
+F 1 "Pad" V 4645 6050 50  0000 L CNN
+F 2 "Connector_Wire:SolderWire-0.5sqmm_1x01_D0.9mm_OD2.1mm" H 4600 5900 50  0001 C CNN
+F 3 "~" H 4600 5900 50  0001 C CNN
+	1    4600 5900
 	0    1    1    0   
 $EndComp
-Text Label 5400 6250 2    50   ~ 0
+Text Label 4500 5900 2    50   ~ 0
 D0
 $Comp
-L Mechanical:MountingHole_Pad H14
+L Mechanical:MountingHole_Pad H7
 U 1 1 5F148FDF
-P 5500 6450
-F 0 "H14" V 5454 6600 50  0000 L CNN
-F 1 "Pad" V 5545 6600 50  0000 L CNN
-F 2 "Connector_Wire:SolderWire-0.5sqmm_1x01_D0.9mm_OD2.1mm" H 5500 6450 50  0001 C CNN
-F 3 "~" H 5500 6450 50  0001 C CNN
-	1    5500 6450
+P 4600 6100
+F 0 "H7" V 4554 6250 50  0000 L CNN
+F 1 "Pad" V 4645 6250 50  0000 L CNN
+F 2 "Connector_Wire:SolderWire-0.5sqmm_1x01_D0.9mm_OD2.1mm" H 4600 6100 50  0001 C CNN
+F 3 "~" H 4600 6100 50  0001 C CNN
+	1    4600 6100
 	0    1    1    0   
 $EndComp
-Text Label 5400 6450 2    50   ~ 0
+Text Label 4500 6100 2    50   ~ 0
 D1
 $Comp
-L Mechanical:MountingHole_Pad H15
+L Mechanical:MountingHole_Pad H8
 U 1 1 5F149630
-P 5500 6650
-F 0 "H15" V 5454 6800 50  0000 L CNN
-F 1 "Pad" V 5545 6800 50  0000 L CNN
-F 2 "Connector_Wire:SolderWire-0.5sqmm_1x01_D0.9mm_OD2.1mm" H 5500 6650 50  0001 C CNN
-F 3 "~" H 5500 6650 50  0001 C CNN
-	1    5500 6650
+P 4600 6300
+F 0 "H8" V 4554 6450 50  0000 L CNN
+F 1 "Pad" V 4645 6450 50  0000 L CNN
+F 2 "Connector_Wire:SolderWire-0.5sqmm_1x01_D0.9mm_OD2.1mm" H 4600 6300 50  0001 C CNN
+F 3 "~" H 4600 6300 50  0001 C CNN
+	1    4600 6300
 	0    1    1    0   
 $EndComp
-Text Label 5400 6650 2    50   ~ 0
+Text Label 4500 6300 2    50   ~ 0
 D4
 $Comp
-L Mechanical:MountingHole_Pad H16
+L Mechanical:MountingHole_Pad H9
 U 1 1 5F149D86
-P 5500 6850
-F 0 "H16" V 5454 7000 50  0000 L CNN
-F 1 "Pad" V 5545 7000 50  0000 L CNN
-F 2 "Connector_Wire:SolderWire-0.5sqmm_1x01_D0.9mm_OD2.1mm" H 5500 6850 50  0001 C CNN
-F 3 "~" H 5500 6850 50  0001 C CNN
-	1    5500 6850
+P 4600 6500
+F 0 "H9" V 4554 6650 50  0000 L CNN
+F 1 "Pad" V 4645 6650 50  0000 L CNN
+F 2 "Connector_Wire:SolderWire-0.5sqmm_1x01_D0.9mm_OD2.1mm" H 4600 6500 50  0001 C CNN
+F 3 "~" H 4600 6500 50  0001 C CNN
+	1    4600 6500
 	0    1    1    0   
 $EndComp
-Text Label 5400 6850 2    50   ~ 0
+Text Label 4500 6500 2    50   ~ 0
 D6
 $Comp
-L Mechanical:MountingHole_Pad H17
+L Mechanical:MountingHole_Pad H10
 U 1 1 5F14A419
-P 5500 7050
-F 0 "H17" V 5454 7200 50  0000 L CNN
-F 1 "Pad" V 5545 7200 50  0000 L CNN
-F 2 "Connector_Wire:SolderWire-0.5sqmm_1x01_D0.9mm_OD2.1mm" H 5500 7050 50  0001 C CNN
-F 3 "~" H 5500 7050 50  0001 C CNN
-	1    5500 7050
+P 4600 6700
+F 0 "H10" V 4554 6850 50  0000 L CNN
+F 1 "Pad" V 4645 6850 50  0000 L CNN
+F 2 "Connector_Wire:SolderWire-0.5sqmm_1x01_D0.9mm_OD2.1mm" H 4600 6700 50  0001 C CNN
+F 3 "~" H 4600 6700 50  0001 C CNN
+	1    4600 6700
 	0    1    1    0   
 $EndComp
-Text Label 5400 7050 2    50   ~ 0
+Text Label 4500 6700 2    50   ~ 0
 D7
 Wire Wire Line
 	3550 850  3550 950 
@@ -984,14 +901,14 @@ U 1 1 5F1FB280
 P 3650 1450
 F 0 "J1" H 3321 1546 50  0000 R CNN
 F 1 "AVR-ISP-6" H 3321 1455 50  0000 R CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_2x03_P2.54mm_Horizontal" V 3400 1500 50  0001 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_2x03_P2.54mm_Vertical" V 3400 1500 50  0001 C CNN
 F 3 " ~" H 2375 900 50  0001 C CNN
 	1    3650 1450
 	1    0    0    -1  
 $EndComp
-Text Label 5500 4350 1    50   ~ 0
+Text Label 6050 4050 1    50   ~ 0
 Col1
-Text Label 4550 4350 1    50   ~ 0
+Text Label 5100 4050 1    50   ~ 0
 Col0
 $Comp
 L power:GND #PWR05
@@ -1093,9 +1010,9 @@ F 3 "~" H 6050 2250 50  0001 C CNN
 $EndComp
 Text Notes 7950 1200 0    63   ~ 0
 USB Port
-Text Notes 6600 4050 0    63   ~ 0
+Text Notes 6200 3750 0    63   ~ 0
 Keyswitches and Diodes
-Text Notes 3300 6050 0    63   ~ 0
+Text Notes 3450 5700 0    63   ~ 0
 Solder Pads For Additional Rows and Columns
 Text Notes 1050 5700 0    63   ~ 0
 Boot and Reset Switches
@@ -1124,103 +1041,58 @@ Wire Wire Line
 $Comp
 L Mechanical:MountingHole H18
 U 1 1 5F14FC44
-P 8000 6050
-F 0 "H18" H 8100 6096 50  0000 L CNN
-F 1 "MountingHole" H 8100 6005 50  0000 L CNN
-F 2 "MountingHole:MountingHole_2.2mm_M2" H 8000 6050 50  0001 C CNN
-F 3 "~" H 8000 6050 50  0001 C CNN
-	1    8000 6050
+P 7150 5900
+F 0 "H18" H 7250 5946 50  0000 L CNN
+F 1 "MountingHole" H 7250 5855 50  0000 L CNN
+F 2 "MountingHole:MountingHole_2.2mm_M2" H 7150 5900 50  0001 C CNN
+F 3 "~" H 7150 5900 50  0001 C CNN
+	1    7150 5900
 	1    0    0    -1  
 $EndComp
 $Comp
 L Mechanical:MountingHole H20
 U 1 1 5F150145
-P 8750 6050
-F 0 "H20" H 8850 6096 50  0000 L CNN
-F 1 "MountingHole" H 8850 6005 50  0000 L CNN
-F 2 "MountingHole:MountingHole_2.2mm_M2" H 8750 6050 50  0001 C CNN
-F 3 "~" H 8750 6050 50  0001 C CNN
-	1    8750 6050
+P 7900 5900
+F 0 "H20" H 8000 5946 50  0000 L CNN
+F 1 "MountingHole" H 8000 5855 50  0000 L CNN
+F 2 "MountingHole:MountingHole_2.2mm_M2" H 7900 5900 50  0001 C CNN
+F 3 "~" H 7900 5900 50  0001 C CNN
+	1    7900 5900
 	1    0    0    -1  
 $EndComp
 $Comp
 L Mechanical:MountingHole H19
 U 1 1 5F15037C
-P 8000 6250
-F 0 "H19" H 8100 6296 50  0000 L CNN
-F 1 "MountingHole" H 8100 6205 50  0000 L CNN
-F 2 "MountingHole:MountingHole_2.2mm_M2" H 8000 6250 50  0001 C CNN
-F 3 "~" H 8000 6250 50  0001 C CNN
-	1    8000 6250
+P 7150 6100
+F 0 "H19" H 7250 6146 50  0000 L CNN
+F 1 "MountingHole" H 7250 6055 50  0000 L CNN
+F 2 "MountingHole:MountingHole_2.2mm_M2" H 7150 6100 50  0001 C CNN
+F 3 "~" H 7150 6100 50  0001 C CNN
+	1    7150 6100
 	1    0    0    -1  
 $EndComp
 $Comp
 L Mechanical:MountingHole H21
 U 1 1 5F151956
-P 8750 6250
-F 0 "H21" H 8850 6296 50  0000 L CNN
-F 1 "MountingHole" H 8850 6205 50  0000 L CNN
-F 2 "MountingHole:MountingHole_2.2mm_M2" H 8750 6250 50  0001 C CNN
-F 3 "~" H 8750 6250 50  0001 C CNN
-	1    8750 6250
+P 7900 6100
+F 0 "H21" H 8000 6146 50  0000 L CNN
+F 1 "MountingHole" H 8000 6055 50  0000 L CNN
+F 2 "MountingHole:MountingHole_2.2mm_M2" H 7900 6100 50  0001 C CNN
+F 3 "~" H 7900 6100 50  0001 C CNN
+	1    7900 6100
 	1    0    0    -1  
 $EndComp
-Text Notes 8300 5900 0    63   ~ 0
+Text Notes 7450 5700 0    63   ~ 0
 Mounting Holes
-$Comp
-L Device:R R7
-U 1 1 5F1BECF3
-P 5850 3500
-F 0 "R7" H 5920 3546 50  0000 L CNN
-F 1 "1.5k" H 5920 3455 50  0000 L CNN
-F 2 "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal" V 5780 3500 50  0001 C CNN
-F 3 "~" H 5850 3500 50  0001 C CNN
-	1    5850 3500
-	0    -1   -1   0   
-$EndComp
-$Comp
-L Device:LED D9
-U 1 1 5F1BFA6A
-P 5450 3500
-F 0 "D9" H 5443 3245 50  0000 C CNN
-F 1 "LED" H 5443 3336 50  0000 C CNN
-F 2 "LED_THT:LED_D3.0mm" H 5450 3500 50  0001 C CNN
-F 3 "~" H 5450 3500 50  0001 C CNN
-	1    5450 3500
-	-1   0    0    1   
-$EndComp
-$Comp
-L power:+5V #PWR010
-U 1 1 5F1C0FFE
-P 5200 3400
-F 0 "#PWR010" H 5200 3250 50  0001 C CNN
-F 1 "+5V" H 5215 3573 50  0000 C CNN
-F 2 "" H 5200 3400 50  0001 C CNN
-F 3 "" H 5200 3400 50  0001 C CNN
-	1    5200 3400
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:GND #PWR011
-U 1 1 5F1C3841
-P 6100 3600
-F 0 "#PWR011" H 6100 3350 50  0001 C CNN
-F 1 "GND" H 6105 3427 50  0000 C CNN
-F 2 "" H 6100 3600 50  0001 C CNN
-F 3 "" H 6100 3600 50  0001 C CNN
-	1    6100 3600
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
-	5200 3400 5200 3500
-Wire Wire Line
-	5200 3500 5300 3500
-Wire Wire Line
-	5600 3500 5700 3500
-Wire Wire Line
-	6000 3500 6100 3500
-Wire Wire Line
-	6100 3500 6100 3600
-Text Notes 5450 3100 0    63   ~ 0
-Power LED
+	8300 4750 8750 4750
+Connection ~ 8300 4750
+Text Label 2650 3400 0    50   ~ 0
+C3
+Text Label 2650 3500 0    50   ~ 0
+C4
+Text Label 5100 6300 2    50   ~ 0
+C3
+Text Label 5100 6100 2    50   ~ 0
+C4
 $EndSCHEMATC
