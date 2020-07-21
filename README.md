@@ -18,7 +18,7 @@ Eventually this README will include instructions to:
 * Purchase other case-related things like standoffs and screws
 * Get a PCB manufactured (probably using [OSH Park](https://oshpark.com/))
 * Purchase the components from the [bill of materials](bom.md)
-* Flash USBaspLoader onto the microcontoller unit (MCU), with the PCB mounted on either the left or right or middle (or wherever you want) of your keyboard (this will require an AVR programmer or wiring up to the GPIO pins of a Raspberry Pi)
+* Flash USBaspLoader onto the microcontroller unit (MCU), with either the in-system programming (ISP) headers on the PCB or another method (like connecting to the GPIO pins of a Raspberry Pi)
 * Solder the components onto the PCB
 * Hand-wire some keyswitches together (need some wire and more diodes for this!) and onto the PCB
 * Create a keymap, etc. and flash QMK onto the MCU
@@ -27,3 +27,5 @@ Things that are not supported/planned for various reasons:
 
 * Split keyboard support
 * Per-key LEDs
+
+Thank you to [coseyfannitutti](https://github.com/coseyfannitutti) who designed the [Discipline PCB](https://github.com/coseyfannitutti/discipline) for the symbols and footprints `D_DO-35_SOD27_P5.08mm_Horizontal.kicad_mod` and `USB_C_GCT_USB4085.kicad_mod` in the `pcb/pin-check.pretty/` directory!
