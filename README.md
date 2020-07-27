@@ -2,6 +2,8 @@
 
 **This is a work in progress for now!**
 
+# Overview
+
 The pin-check will be a printed circuit board (PCB) for hand-wired keyboards that uses all through-hole components. It is inspired by the [Plaid](https://github.com/hsgw/plaid), [Discipline](https://github.com/coseyfannitutti/discipline), and [Postage Board](https://github.com/LifeIsOnTheWire/Postage-Board/blob/master/README.md). It's called the pin-check because pin check is a smaller pattern than plaid and [Gingham](https://yiancar-designs.com/product/gingham/). It will stick up above your case or plate, both to show off the components 😎 and because through-hole components can't fit under the keyswitches on the back side of the PCB like the surface-mounted device (SMD) components of something like Postage Board can.
 
 It might look something like this.
@@ -25,7 +27,10 @@ Eventually this README will include instructions to:
 
 Things that are not supported/planned for various reasons:
 
-* Split keyboard support
+* ~~Split keyboard support~~ (support planned now, just needs to be tested!)
 * Per-key LEDs
 
-Thank you to [coseyfannitutti](https://github.com/coseyfannitutti) who designed the [Discipline PCB](https://github.com/coseyfannitutti/discipline) for the symbols and footprints `D_DO-35_SOD27_P5.08mm_Horizontal.kicad_mod` and `USB_C_GCT_USB4085.kicad_mod` in the `pcb/pin-check.pretty/` directory!
+# Acknowledgments
+
+* Thank you to [coseyfannitutti](https://github.com/coseyfannitutti) who designed the [Discipline PCB](https://github.com/coseyfannitutti/discipline) for the footprints `D_DO-35_SOD27_P5.08mm_Horizontal.kicad_mod` and `USB_C_GCT_USB4085.kicad_mod` in the `pcb/pin-check.pretty/` directory!
+* The symbol `SJ-43514` in the `pin-check.lib` symbol library and footprint `CUI_SJ-43514.kicad_mod` in `pcb/pin-check.pretty` are from [CUI Devices](https://www.cuidevices.com/product/resource/pcbfootprint/sj-43514) (with minor modifications to the footprint).
