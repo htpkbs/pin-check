@@ -10,7 +10,7 @@ This is a tentative BOM. Keyswitches (SW1 through SW6) and header pins (just sol
 | D1-D4 | 4 | 1N4148 | Vishay Semiconductor Diodes Division | TZX3V6B-TR | https://www.digikey.com/product-detail/en/vishay-semiconductor-diodes-division/TZX3V6B-TR/TZX3V6B-TRGICT-ND/9601328 |
 | D7, D8 | 2 | 3.6V | Vishay Semiconductor Diodes Division | 1N4148TR | https://www.digikey.com/product-detail/en/vishay-semiconductor-diodes-division/1N4148TR/1N4148VSCT-ND/3104297 |
 | F1 | 1 | 100mA | Bourns Inc. | MF-R010 |https://www.digikey.com/product-detail/en/bourns-inc/MF-R010/MF-R010-ND/259959 |
-| J1 | 1 | AVR-ISP-6 | TBD | TBD | TBD |
+| J1 | 1 | AVR-ISP-6 | METZ CONNECT USA Inc. | PR20203VBDN | https://www.digikey.com/product-detail/en/metz-connect-usa-inc/PR20203VBDN/1849-PR20203VBDN-ND/12342894 |
 | J2 | 1 | SJ-43514 | CUI Devices | SJ-43514 | https://www.digikey.com/product-detail/en/cui-inc/SJ-43514/CP-43514-ND/368146 |
 | P1 | 1 | USB_C_Receptacle_USB2.0 | GCT | USB4085-GF-A | https://www.digikey.com/product-detail/en/USB4085-GF-A/2073-USB4085-GF-ACT-ND/9859733 |
 | R1 | 1 | 10k | Vishay BC Components | SFR16S0001002JA500 | https://www.digikey.com/product-detail/en/vishay-bc-components/SFR16S0001002JA500/BC4294CT-ND/7351724 |
