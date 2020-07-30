@@ -20,5 +20,5 @@ This is a tentative BOM. Keyswitches (SW1 through SW6) and headers (just empty s
 | R7, R8 | 2 | 4.7k | Vishay BC Components | MBA02040C5101FCT00 | https://www.digikey.com/product-detail/en/vishay-bc-components/MBA02040C4701FCT00/BC3275CT-ND/6138778 |
 | SW7 | 1 | Reset | TE Connectivity ALCOSWITCH Switches | 1825910-3 | https://www.digikey.com/product-detail/en/te-connectivity-alcoswitch-switches/1825910-3/450-3354-ND/2400476 |
 | SW8 | 1 | Boot | TE Connectivity ALCOSWITCH Switches | 1825910-2 | https://www.digikey.com/product-detail/en/te-connectivity-alcoswitch-switches/1825910-2/450-1649-ND/1632535 |
-| U1 | 1 | ATmega328P-PU | Microchip Technology | ATMEGA328P-PU | https://www.digikey.com/product-detail/en/microchip-technology/ATMEGA328P-PU/ATMEGA328P-PU-ND/1914589 |
+| U1 | 1 | ATmega328P-PU | Microchip Technology | ATMEGA328P-PU | https://www.digikey.com/product-detail/en/microchip-technology/ATMEGA328P-PU/ATMEGA328P-PU-ND/1914589<br />https://www.digikey.com/product-detail/en/mill-max-manufacturing-corp/115-43-328-41-001000/ED90203-ND/1212100 |
 | Y1 | 1 | 16MHz | Abracon LLC | ABL-16.000MHZ-B2 | https://www.digikey.com/product-detail/en/abracon-llc/ABL-16-000MHZ-B2/535-9041-ND/675236 |
