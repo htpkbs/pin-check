@@ -6,7 +6,7 @@ encoding utf-8
 Sheet 1 1
 Title "pin-check"
 Date ""
-Rev "v1.0.0"
+Rev "v1.0.1"
 Comp ""
 Comment1 ""
 Comment2 "https://github.com/brianmutualaid/pin-check/blob/master/LICENSE"
@@ -377,7 +377,7 @@ NoConn ~ 1450 2200
 Text Label 2650 2200 0    50   ~ 0
 Row0
 Text Label 2650 3100 0    50   ~ 0
-Col1
+ColB
 $Comp
 L Mechanical:MountingHole_Pad H1
 U 1 1 5F1D617B
@@ -493,12 +493,12 @@ Wire Wire Line
 Wire Wire Line
 	2650 2900 3050 2900
 Text Label 3900 6000 2    50   ~ 0
-Col0Ext
+ColAExt
 Text Label 3150 6000 2    50   ~ 0
 Row0Ext
 Connection ~ 7100 4900
 Text Label 6600 5000 3    50   ~ 0
-Col0Ext
+ColAExt
 Wire Wire Line
 	6500 4900 7100 4900
 Wire Wire Line
@@ -530,9 +530,9 @@ F 3 "~" H 6850 4800 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Text Label 2650 3200 0    50   ~ 0
-Col2
+ColC
 Text Label 2650 3300 0    50   ~ 0
-Col3
+ColD
 $Comp
 L Switch:SW_Push SW2
 U 1 1 5F1B9489
@@ -636,11 +636,11 @@ Wire Wire Line
 	9350 4600 9350 5000
 Connection ~ 9350 4600
 Text Label 7550 5000 3    50   ~ 0
-Col1Ext
+ColBExt
 Text Label 8450 5000 3    50   ~ 0
-Col2Ext
+ColCExt
 Text Label 9350 5000 3    50   ~ 0
-Col3Ext
+ColDExt
 $Comp
 L Mechanical:MountingHole_Pad H3
 U 1 1 5F1F0A80
@@ -697,42 +697,31 @@ F 3 "~" H 5200 6200 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 Text Label 3900 6200 2    50   ~ 0
-Col1Ext
+ColBExt
 Text Label 3900 6400 2    50   ~ 0
-Col2Ext
+ColCExt
 Text Label 3900 6600 2    50   ~ 0
-Col3Ext
+ColDExt
 Text Label 8450 4200 1    50   ~ 0
-Col2
+ColC
 Text Label 9350 4200 1    50   ~ 0
-Col3
+ColD
 $Comp
 L Mechanical:MountingHole_Pad H17
 U 1 1 5F25327F
-P 5800 6000
-F 0 "H17" V 5754 6150 50  0000 L CNN
-F 1 "Pad" V 5845 6150 50  0000 L CNN
-F 2 "Connector_Wire:SolderWire-0.5sqmm_1x01_D0.9mm_OD2.1mm" H 5800 6000 50  0001 C CNN
-F 3 "~" H 5800 6000 50  0001 C CNN
-	1    5800 6000
+P 5800 6600
+F 0 "H17" V 5754 6750 50  0000 L CNN
+F 1 "Pad" V 5845 6750 50  0000 L CNN
+F 2 "Connector_Wire:SolderWire-0.5sqmm_1x01_D0.9mm_OD2.1mm" H 5800 6600 50  0001 C CNN
+F 3 "~" H 5800 6600 50  0001 C CNN
+	1    5800 6600
 	0    1    1    0   
 $EndComp
 $Comp
 L Mechanical:MountingHole_Pad H16
 U 1 1 5F25363B
-P 5800 6200
-F 0 "H16" V 5754 6350 50  0000 L CNN
-F 1 "Pad" V 5845 6350 50  0000 L CNN
-F 2 "Connector_Wire:SolderWire-0.5sqmm_1x01_D0.9mm_OD2.1mm" H 5800 6200 50  0001 C CNN
-F 3 "~" H 5800 6200 50  0001 C CNN
-	1    5800 6200
-	0    1    1    0   
-$EndComp
-$Comp
-L Mechanical:MountingHole_Pad H15
-U 1 1 5F253939
 P 5800 6400
-F 0 "H15" V 5754 6550 50  0000 L CNN
+F 0 "H16" V 5754 6550 50  0000 L CNN
 F 1 "Pad" V 5845 6550 50  0000 L CNN
 F 2 "Connector_Wire:SolderWire-0.5sqmm_1x01_D0.9mm_OD2.1mm" H 5800 6400 50  0001 C CNN
 F 3 "~" H 5800 6400 50  0001 C CNN
@@ -740,23 +729,34 @@ F 3 "~" H 5800 6400 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Mechanical:MountingHole_Pad H14
-U 1 1 5F253BB2
-P 5800 6600
-F 0 "H14" V 5754 6750 50  0000 L CNN
-F 1 "Pad" V 5845 6750 50  0000 L CNN
-F 2 "Connector_Wire:SolderWire-0.5sqmm_1x01_D0.9mm_OD2.1mm" H 5800 6600 50  0001 C CNN
-F 3 "~" H 5800 6600 50  0001 C CNN
-	1    5800 6600
+L Mechanical:MountingHole_Pad H15
+U 1 1 5F253939
+P 5800 6200
+F 0 "H15" V 5754 6350 50  0000 L CNN
+F 1 "Pad" V 5845 6350 50  0000 L CNN
+F 2 "Connector_Wire:SolderWire-0.5sqmm_1x01_D0.9mm_OD2.1mm" H 5800 6200 50  0001 C CNN
+F 3 "~" H 5800 6200 50  0001 C CNN
+	1    5800 6200
 	0    1    1    0   
 $EndComp
-Text Label 5700 6000 2    50   ~ 0
-B1
-Text Label 5700 6200 2    50   ~ 0
-B2
-Text Label 5700 6400 2    50   ~ 0
-B3
+$Comp
+L Mechanical:MountingHole_Pad H14
+U 1 1 5F253BB2
+P 5800 6000
+F 0 "H14" V 5754 6150 50  0000 L CNN
+F 1 "Pad" V 5845 6150 50  0000 L CNN
+F 2 "Connector_Wire:SolderWire-0.5sqmm_1x01_D0.9mm_OD2.1mm" H 5800 6000 50  0001 C CNN
+F 3 "~" H 5800 6000 50  0001 C CNN
+	1    5800 6000
+	0    1    1    0   
+$EndComp
 Text Label 5700 6600 2    50   ~ 0
+B1
+Text Label 5700 6400 2    50   ~ 0
+B2
+Text Label 5700 6200 2    50   ~ 0
+B3
+Text Label 5700 6000 2    50   ~ 0
 B4
 $Comp
 L MCU_Microchip_ATmega:ATmega328P-PU U1
@@ -778,7 +778,7 @@ B3
 Text Label 2650 2600 0    50   ~ 0
 B4
 Text Label 2650 2700 0    50   ~ 0
-Col0
+ColA
 Text Label 2650 3600 0    50   ~ 0
 C5
 Text Label 2650 3900 0    50   ~ 0
@@ -907,9 +907,9 @@ F 3 " ~" H 2375 900 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Text Label 7550 4200 1    50   ~ 0
-Col1
+ColB
 Text Label 6600 4200 1    50   ~ 0
-Col0
+ColA
 $Comp
 L power:GND #PWR05
 U 1 1 5F122095
