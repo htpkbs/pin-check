@@ -20,9 +20,9 @@ The pin-check is a printed circuit board (PCB) for hand-wired keyboards that use
 
 It looks something like this (before any of the components are added).
 
-![3D render of front of PCB](assets/pin-check-front.png)
+![3D render of front of PCB](assets/pcb-front.png)
 
-![3D render of back of PCB](assets/pin-check-back.png)
+![3D render of back of PCB](assets/pcb-back.png)
 
 [There is a PDF of the schematic here](assets/schematic.pdf).
 
