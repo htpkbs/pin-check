@@ -1,6 +1,6 @@
 # Bill of Materials (BOM)
 
-Keyswitches (SW1-SW6), H1-H17 (just empty solder holes on the PCB), and H18-H21 (window mounting holes) are not included.
+SW1-SW6 (keyswitches), H1-H17 (just empty solder holes on the PCB), and H18-H21 (window mounting holes) are not included.
 
 | Reference | Quantity | Value | Manufacturer | Manufacturer Part No. | DigiKey Link |
 | --- | --- | --- | --- | --- | --- |
