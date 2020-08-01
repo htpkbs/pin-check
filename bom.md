@@ -1,6 +1,6 @@
 # Bill of Materials (BOM)
 
-This is a tentative BOM. Keyswitches (SW1 through SW6) and headers (just empty solder holes on the PCB) are not included.
+Keyswitches (SW1-SW6) and headers (H1-H17, just empty solder holes on the PCB) are not included.
 
 | Reference | Quantity | Value | Manufacturer | Manufacturer Part No. | DigiKey Link |
 | --- | --- | --- | --- | --- | --- |
