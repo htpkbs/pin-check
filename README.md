@@ -29,7 +29,7 @@ Kits that include the PCB and all components (except for keyswitches) may be for
 # DIY
 <a name="diy" />
 
-**If you purchased a kit you can skip this section!**
+**If you purchased a kit you can [skip to building the kit](#building-the-kit)!**
 
 ## PCB
 <a name="pcb" />
@@ -61,7 +61,7 @@ There will be instructions here for assembling the kit (soldering components ont
 # Designing a Keyboard
 <a name="designing-a-keyboard" />
 
-If you already have a plate, case, and keyswitches, and are familiar with hand-wiring, you can skip to the QMK section.
+If you already have a plate, case, and keyswitches, and are familiar with hand-wiring, you can [skip to the QMK section](#qmk).
 
 TODO: Add information about limitations of the number of I/O pins on the ATmega328P (and implications for layouts).
 
