@@ -53,7 +53,7 @@ TODO: Add instructions to use avrdude with either an AVR programmer or Raspberry
 ## Acrylic Window
 <a name="acrylic-window" />
 
-If you want to mount a clear acrylic window above the exposed portion of the PCB, you can upload the `window.svg` file in this repository to your preferred laser cutting service or use it to cut a piece of clear acrylic yourself (something around 3mm thick should be good). To mount the window, you need four M2 female-female standoffs that are at least 10 mm long, and eight M2 screws to secure the standoffs to the window and the PCB.
+If you want to mount a clear acrylic window above the exposed portion of the PCB, you can upload the `assets/window.svg` file in this repository to your preferred laser cutting service or use it to cut a piece of clear acrylic yourself (something around 3mm thick should be good). To mount the window, you need four M2 female-female standoffs that are at least 10 mm long, and eight M2 screws to secure the standoffs to the window and the PCB.
 
 # Building the Kit
 <a name="building-the-kit" />
