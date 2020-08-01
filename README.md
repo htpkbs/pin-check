@@ -76,7 +76,7 @@ TODO: Add information about hand-wiring and required parts (more diodes!).
 # QMK
 <a name="qmk" />
 
-TODO: Add instructions about creating a keymap in QMK and flashing it onto the keyboard.
+TODO: Add instructions about creating a keymap in QMK and flashing it onto the keyboard. Mention that H11 and H12 are not available to use for rows or columns if you're setting up a split keyboard!
 
 # Acknowledgments and Sublicenses
 <a name="acknowledgments-and-sublicenses" />
