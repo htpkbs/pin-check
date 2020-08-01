@@ -3,3 +3,4 @@ _autosave*
 *-bak
 *-cache*
 pcb/gerber/
+footprint-svg/
