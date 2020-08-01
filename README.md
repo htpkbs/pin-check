@@ -18,11 +18,13 @@
 
 The pin-check is a printed circuit board (PCB) for hand-wired keyboards that uses all through-hole components and supports [QMK](https://qmk.fm/). It is inspired by the [Plaid](https://github.com/hsgw/plaid), [Discipline](https://github.com/coseyfannitutti/discipline), and [Postage Board](https://github.com/LifeIsOnTheWire/Postage-Board/blob/master/README.md). It's called the pin-check because pin check is a smaller pattern than plaid and [Gingham](https://yiancar-designs.com/product/gingham/). It will stick up above your case or plate, both to show off the components 😎 and because through-hole components can't fit under the keyswitches on the back side of the PCB like the surface-mounted device (SMD) components of something like Postage Board can.
 
-It might look something like this.
+It looks something like this (before any of the components are added).
 
-![3D render of front of PCB](pcb/pin-check-front.png)
+![3D render of front of PCB](assets/pin-check-front.png)
 
-![3D render of back of PCB](pcb/pin-check-back.png)
+![3D render of back of PCB](assets/pin-check-back.png)
+
+[There is a PDF of the schematic here](assets/schematic.pdf).
 
 Kits that include the PCB and all components (except for keyswitches) may be for sale at some point.
 

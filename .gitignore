@@ -1,4 +1,5 @@
 .DS_Store
 _autosave*
 *-bak
+*-cache*
 pcb/gerber/
