@@ -1,6 +1,18 @@
 **This is a work in progress for now!**
 
+* [Overview](#overview)
+* [DIY](#diy)
+  * [PCB](#pcb)
+  * [Components](#components)
+  * [Bootloader](#bootloader)
+  * [Acrylic Window](#acrylic-window)
+* [Building the Kit](#building-the-kit)
+* [Designing a Keyboard](#designing-a-keyboard)
+* [QMK](#qmk)
+* [Acknowledgments and Sublicenses](#acknowledgments-and-sublicenses)
+
 # Overview
+<a name="overview" />
 
 The pin-check is a printed circuit board (PCB) for hand-wired keyboards that uses all through-hole components and supports [QMK](https://qmk.fm/). It is inspired by the [Plaid](https://github.com/hsgw/plaid), [Discipline](https://github.com/coseyfannitutti/discipline), and [Postage Board](https://github.com/LifeIsOnTheWire/Postage-Board/blob/master/README.md). It's called the pin-check because pin check is a smaller pattern than plaid and [Gingham](https://yiancar-designs.com/product/gingham/). It will stick up above your case or plate, both to show off the components 😎 and because through-hole components can't fit under the keyswitches on the back side of the PCB like the surface-mounted device (SMD) components of something like Postage Board can.
 
@@ -54,7 +66,7 @@ TODO: Add information about hand-wiring and required parts (more diodes!).
 
 TODO: Add instructions about creating a keymap in QMK and flashing it onto the keyboard.
 
-# Acknowledgments and sublicenses
+# Acknowledgments and Sublicenses
 
 * Thank you to [coseyfannitutti](https://github.com/coseyfannitutti) who designed the [Discipline PCB](https://github.com/coseyfannitutti/discipline) for the footprints `D_DO-35_SOD27_P5.08mm_Horizontal.kicad_mod` and `USB_C_GCT_USB4085.kicad_mod`! [The Create Commons license for these files is included here](LICENSE.CFTKB).
 * Thanks to [ai03-2725](https://github.com/ai03-2725) for the symbol `MX-NoLED` and footprint `MX-1U-NoLED.kicad_mod` from the [MX_Alps_Hybrid repository](https://github.com/ai03-2725/MX_Alps_Hybrid). The footprint is a slightly modified version from [dsanchezseco's pull request](https://github.com/ai03-2725/MX_Alps_Hybrid/pull/15). [The MIT license for these is included here](LICENSE.ai03).
