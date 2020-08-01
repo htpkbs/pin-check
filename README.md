@@ -36,7 +36,7 @@ Kits that include the PCB and all components (except for keyswitches) may be for
 ## PCB
 <a name="pcb" />
 
-To get a PCB, you can submit the files in this repository to any PCB manufacturer. [OSH Park](https://oshpark.com/) lets you upload `.kicad_pcb` files directly, or you can generate Gerber and drill files and submit them to your preferred PCB manufacturer (the manufacturer should have instructions to do this using [KiCad](https://kicad-pcb.org/).
+To get a PCB, you can submit the files in this repository to any PCB manufacturer. [OSH Park](https://oshpark.com/) lets you upload `.kicad_pcb` files directly, or you can generate Gerber and drill files and submit them to your preferred PCB manufacturer (the manufacturer should have instructions to do this using [KiCad](https://kicad-pcb.org/)).
 
 ## Components
 <a name="components" />
