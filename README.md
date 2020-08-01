@@ -79,7 +79,7 @@ TODO: Add instructions about creating a keymap in QMK and flashing it onto the k
 # Acknowledgments and Sublicenses
 <a name="acknowledgments-and-sublicenses" />
 
-* Thank you to [coseyfannitutti](https://github.com/coseyfannitutti) who designed the [Discipline PCB](https://github.com/coseyfannitutti/discipline) for the footprints `D_DO-35_SOD27_P5.08mm_Horizontal.kicad_mod` and `USB_C_GCT_USB4085.kicad_mod`! [The Create Commons license for these files is included here](LICENSE.CFTKB).
+* Thank you to [coseyfannitutti](https://github.com/coseyfannitutti) who designed the [Discipline PCB](https://github.com/coseyfannitutti/discipline) for the footprints `D_DO-35_SOD27_P5.08mm_Horizontal.kicad_mod` and `USB_C_GCT_USB4085.kicad_mod`! [The Creative Commons license for these files is included here](LICENSE.CFTKB).
 * Thanks to [ai03-2725](https://github.com/ai03-2725) for the symbol `MX-NoLED` and footprint `MX-1U-NoLED.kicad_mod` from the [MX_Alps_Hybrid repository](https://github.com/ai03-2725/MX_Alps_Hybrid). The footprint is a slightly modified version from [dsanchezseco's pull request](https://github.com/ai03-2725/MX_Alps_Hybrid/pull/15). [The MIT license for these is included here](LICENSE.ai03).
 * The symbol `SJ-43514` and footprint `CUI_SJ-43514.kicad_mod` are from [CUI Devices](https://www.cuidevices.com/product/resource/pcbfootprint/sj-43514) (with minor modifications to the footprint).
 * Lastly, I have to shout out the [plaid PCB](https://github.com/hsgw/plaid) by [hsgw](https://github.com/hsgw) one more time, because it was my first through-hole kit, it inspired me to learn more about circuit and PCB design, and since it's open source it has been a great resource to learn from.
