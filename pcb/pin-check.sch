@@ -6,7 +6,7 @@ encoding utf-8
 Sheet 1 1
 Title "pin-check"
 Date ""
-Rev "v1.0.1"
+Rev "v1.1.0"
 Comp ""
 Comment1 ""
 Comment2 "https://github.com/brianmutualaid/pin-check/blob/master/LICENSE"
@@ -146,17 +146,6 @@ F 1 "USB_C_Receptacle_USB2.0" H 7200 2250 50  0000 C CNN
 F 2 "pin-check:USB_C_GCT_USB4085" H 8300 2250 50  0001 C CNN
 F 3 "https://www.usb.org/sites/default/files/documents/usb_type-c.zip" H 8300 2250 50  0001 C CNN
 	1    8150 2250
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:GND #PWR06
-U 1 1 5F169047
-P 8150 3350
-F 0 "#PWR06" H 8150 3100 50  0001 C CNN
-F 1 "GND" H 8155 3177 50  0000 C CNN
-F 2 "" H 8150 3350 50  0001 C CNN
-F 3 "" H 8150 3350 50  0001 C CNN
-	1    8150 3350
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -496,151 +485,10 @@ Text Label 3900 6000 2    50   ~ 0
 ColAExt
 Text Label 3150 6000 2    50   ~ 0
 Row0Ext
-Connection ~ 7100 4900
-Text Label 6600 5000 3    50   ~ 0
-ColAExt
-Wire Wire Line
-	6500 4900 7100 4900
-Wire Wire Line
-	6650 4600 6600 4600
-Wire Wire Line
-	7050 4600 7100 4600
-Text Label 6500 4900 2    50   ~ 0
-Row0
-$Comp
-L Device:D D1
-U 1 1 5F10EEDE
-P 7100 4750
-F 0 "D1" V 7146 4670 50  0000 R CNN
-F 1 "1N4148" V 7055 4670 50  0000 R CNN
-F 2 "pin-check:D_DO-35_SOD27_P5.08mm_Horizontal" H 7100 4750 50  0001 C CNN
-F 3 "~" H 7100 4750 50  0001 C CNN
-	1    7100 4750
-	0    -1   -1   0   
-$EndComp
-$Comp
-L Switch:SW_Push SW1
-U 1 1 5F10BCBB
-P 6850 4600
-F 0 "SW1" H 6850 4885 50  0000 C CNN
-F 1 "SW_Push" H 6850 4794 50  0000 C CNN
-F 2 "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB" H 6850 4800 50  0001 C CNN
-F 3 "~" H 6850 4800 50  0001 C CNN
-	1    6850 4600
-	1    0    0    -1  
-$EndComp
 Text Label 2650 3200 0    50   ~ 0
 ColC
 Text Label 2650 3300 0    50   ~ 0
 ColD
-$Comp
-L Switch:SW_Push SW2
-U 1 1 5F1B9489
-P 7750 4600
-F 0 "SW2" H 7750 4885 50  0000 C CNN
-F 1 "SW_Push" H 7750 4794 50  0000 C CNN
-F 2 "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB" H 7750 4800 50  0001 C CNN
-F 3 "~" H 7750 4800 50  0001 C CNN
-	1    7750 4600
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:D D2
-U 1 1 5F1BA8D5
-P 8000 4750
-F 0 "D2" V 8046 4670 50  0000 R CNN
-F 1 "1N4148" V 7955 4670 50  0000 R CNN
-F 2 "pin-check:D_DO-35_SOD27_P5.08mm_Horizontal" H 8000 4750 50  0001 C CNN
-F 3 "~" H 8000 4750 50  0001 C CNN
-	1    8000 4750
-	0    -1   -1   0   
-$EndComp
-Wire Wire Line
-	7100 4900 8000 4900
-Connection ~ 8000 4900
-$Comp
-L Switch:SW_Push SW3
-U 1 1 5F1BD5A3
-P 8650 4600
-F 0 "SW3" H 8650 4885 50  0000 C CNN
-F 1 "SW_Push" H 8650 4794 50  0000 C CNN
-F 2 "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB" H 8650 4800 50  0001 C CNN
-F 3 "~" H 8650 4800 50  0001 C CNN
-	1    8650 4600
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:D D3
-U 1 1 5F1C1E03
-P 8900 4750
-F 0 "D3" V 8946 4670 50  0000 R CNN
-F 1 "1N4148" V 8855 4670 50  0000 R CNN
-F 2 "pin-check:D_DO-35_SOD27_P5.08mm_Horizontal" H 8900 4750 50  0001 C CNN
-F 3 "~" H 8900 4750 50  0001 C CNN
-	1    8900 4750
-	0    -1   -1   0   
-$EndComp
-$Comp
-L Switch:SW_Push SW4
-U 1 1 5F1C23FE
-P 9550 4600
-F 0 "SW4" H 9550 4885 50  0000 C CNN
-F 1 "SW_Push" H 9550 4794 50  0000 C CNN
-F 2 "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB" H 9550 4800 50  0001 C CNN
-F 3 "~" H 9550 4800 50  0001 C CNN
-	1    9550 4600
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:D D4
-U 1 1 5F1C2FB9
-P 9800 4750
-F 0 "D4" V 9846 4670 50  0000 R CNN
-F 1 "1N4148" V 9755 4670 50  0000 R CNN
-F 2 "pin-check:D_DO-35_SOD27_P5.08mm_Horizontal" H 9800 4750 50  0001 C CNN
-F 3 "~" H 9800 4750 50  0001 C CNN
-	1    9800 4750
-	0    -1   -1   0   
-$EndComp
-Wire Wire Line
-	8000 4900 8900 4900
-Connection ~ 8900 4900
-Wire Wire Line
-	8900 4900 9800 4900
-Text Label 10250 4900 0    50   ~ 0
-Row0Ext
-Wire Wire Line
-	6600 4600 6600 5000
-Wire Wire Line
-	7950 4600 8000 4600
-Wire Wire Line
-	8850 4600 8900 4600
-Wire Wire Line
-	9750 4600 9800 4600
-Wire Wire Line
-	6600 4600 6600 4200
-Connection ~ 6600 4600
-Wire Wire Line
-	7550 4600 7550 4200
-Wire Wire Line
-	7550 4600 7550 5000
-Connection ~ 7550 4600
-Wire Wire Line
-	8450 4600 8450 4200
-Wire Wire Line
-	8450 4600 8450 5000
-Connection ~ 8450 4600
-Wire Wire Line
-	9350 4600 9350 4200
-Wire Wire Line
-	9350 4600 9350 5000
-Connection ~ 9350 4600
-Text Label 7550 5000 3    50   ~ 0
-ColBExt
-Text Label 8450 5000 3    50   ~ 0
-ColCExt
-Text Label 9350 5000 3    50   ~ 0
-ColDExt
 $Comp
 L Mechanical:MountingHole_Pad H3
 U 1 1 5F1F0A80
@@ -702,10 +550,6 @@ Text Label 3900 6400 2    50   ~ 0
 ColCExt
 Text Label 3900 6600 2    50   ~ 0
 ColDExt
-Text Label 8450 4200 1    50   ~ 0
-ColC
-Text Label 9350 4200 1    50   ~ 0
-ColD
 $Comp
 L Mechanical:MountingHole_Pad H17
 U 1 1 5F25327F
@@ -906,10 +750,6 @@ F 3 " ~" H 2375 900 50  0001 C CNN
 	1    3650 1450
 	1    0    0    -1  
 $EndComp
-Text Label 7550 4200 1    50   ~ 0
-ColB
-Text Label 6600 4200 1    50   ~ 0
-ColA
 $Comp
 L power:GND #PWR05
 U 1 1 5F122095
@@ -1010,8 +850,6 @@ F 3 "~" H 6050 2250 50  0001 C CNN
 $EndComp
 Text Notes 7950 1200 0    63   ~ 0
 USB Port
-Text Notes 7700 3900 0    63   ~ 0
-Keyswitches and Diodes
 Text Notes 3450 5800 0    63   ~ 0
 Solder Pads For Additional Rows and Columns
 Text Notes 1050 5800 0    63   ~ 0
@@ -1084,9 +922,6 @@ F 3 "~" H 7900 6200 50  0001 C CNN
 $EndComp
 Text Notes 7450 5800 0    63   ~ 0
 Mounting Holes
-Wire Wire Line
-	9800 4900 10250 4900
-Connection ~ 9800 4900
 Text Label 2650 3400 0    50   ~ 0
 C3
 Text Label 2650 3500 0    50   ~ 0
@@ -1188,4 +1023,175 @@ Text Label 5100 4950 0    50   ~ 0
 C4
 Text Notes 4200 3900 0    63   ~ 0
 TRRS Jack
+$Comp
+L power:GND #PWR06
+U 1 1 5F169047
+P 8150 3350
+F 0 "#PWR06" H 8150 3100 50  0001 C CNN
+F 1 "GND" H 8155 3177 50  0000 C CNN
+F 2 "" H 8150 3350 50  0001 C CNN
+F 3 "" H 8150 3350 50  0001 C CNN
+	1    8150 3350
+	1    0    0    -1  
+$EndComp
+Text Notes 7200 3900 0    63   ~ 0
+Keyswitches and Diodes
+Text Label 6500 4200 1    50   ~ 0
+ColA
+Text Label 7150 4200 1    50   ~ 0
+ColB
+Text Label 8450 4200 1    50   ~ 0
+ColD
+Text Label 7800 4200 1    50   ~ 0
+ColC
+$Comp
+L Device:D D4
+U 1 1 5F1C2FB9
+P 8650 4800
+F 0 "D4" V 8696 4720 50  0000 R CNN
+F 1 "1N4148" V 8605 4720 50  0000 R CNN
+F 2 "pin-check:D_DO-35_SOD27_P5.08mm_Horizontal" H 8650 4800 50  0001 C CNN
+F 3 "~" H 8650 4800 50  0001 C CNN
+	1    8650 4800
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:D D3
+U 1 1 5F1C1E03
+P 8000 4800
+F 0 "D3" V 8046 4720 50  0000 R CNN
+F 1 "1N4148" V 7955 4720 50  0000 R CNN
+F 2 "pin-check:D_DO-35_SOD27_P5.08mm_Horizontal" H 8000 4800 50  0001 C CNN
+F 3 "~" H 8000 4800 50  0001 C CNN
+	1    8000 4800
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:D D2
+U 1 1 5F1BA8D5
+P 7350 4800
+F 0 "D2" V 7396 4720 50  0000 R CNN
+F 1 "1N4148" V 7305 4720 50  0000 R CNN
+F 2 "pin-check:D_DO-35_SOD27_P5.08mm_Horizontal" H 7350 4800 50  0001 C CNN
+F 3 "~" H 7350 4800 50  0001 C CNN
+	1    7350 4800
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:D D1
+U 1 1 5F10EEDE
+P 6700 4800
+F 0 "D1" V 6746 4720 50  0000 R CNN
+F 1 "1N4148" V 6655 4720 50  0000 R CNN
+F 2 "pin-check:D_DO-35_SOD27_P5.08mm_Horizontal" H 6700 4800 50  0001 C CNN
+F 3 "~" H 6700 4800 50  0001 C CNN
+	1    6700 4800
+	0    -1   -1   0   
+$EndComp
+$Comp
+L pin-check:MX-NoLED SW1
+U 1 1 5F2FF1B6
+P 6650 4400
+F 0 "SW1" V 6664 4528 60  0000 L CNN
+F 1 "MX-NoLED" V 6738 4528 20  0000 L CNN
+F 2 "pin-check:MX-1U-NoLED" H 6025 4375 60  0001 C CNN
+F 3 "" H 6025 4375 60  0001 C CNN
+	1    6650 4400
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	6700 4550 6700 4650
+$Comp
+L pin-check:MX-NoLED SW2
+U 1 1 5F309D39
+P 7300 4400
+F 0 "SW2" V 7314 4528 60  0000 L CNN
+F 1 "MX-NoLED" V 7388 4528 20  0000 L CNN
+F 2 "pin-check:MX-1U-NoLED" H 6675 4375 60  0001 C CNN
+F 3 "" H 6675 4375 60  0001 C CNN
+	1    7300 4400
+	0    1    1    0   
+$EndComp
+$Comp
+L pin-check:MX-NoLED SW3
+U 1 1 5F30C3B9
+P 7950 4400
+F 0 "SW3" V 7964 4528 60  0000 L CNN
+F 1 "MX-NoLED" V 8038 4528 20  0000 L CNN
+F 2 "pin-check:MX-1U-NoLED" H 7325 4375 60  0001 C CNN
+F 3 "" H 7325 4375 60  0001 C CNN
+	1    7950 4400
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	7350 4550 7350 4650
+Wire Wire Line
+	8000 4550 8000 4650
+Wire Wire Line
+	8650 4550 8650 4650
+Wire Wire Line
+	6700 4950 6700 5050
+Wire Wire Line
+	6700 5050 7350 5050
+Wire Wire Line
+	7350 4950 7350 5050
+Connection ~ 7350 5050
+Wire Wire Line
+	7350 5050 8000 5050
+Wire Wire Line
+	8000 4950 8000 5050
+Connection ~ 8000 5050
+Wire Wire Line
+	8000 5050 8650 5050
+Wire Wire Line
+	8650 4950 8650 5050
+Connection ~ 8650 5050
+Wire Wire Line
+	8650 5050 9100 5050
+Text Label 6400 5050 2    50   ~ 0
+Row0
+Text Label 9100 5050 0    50   ~ 0
+Row0Ext
+$Comp
+L pin-check:MX-NoLED SW4
+U 1 1 5F30D201
+P 8600 4400
+F 0 "SW4" V 8614 4528 60  0000 L CNN
+F 1 "MX-NoLED" V 8688 4528 20  0000 L CNN
+F 2 "pin-check:MX-1U-NoLED" H 7975 4375 60  0001 C CNN
+F 3 "" H 7975 4375 60  0001 C CNN
+	1    8600 4400
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	8450 4350 8450 5150
+Wire Wire Line
+	7800 4350 7800 5150
+Wire Wire Line
+	7150 4350 7150 5150
+Wire Wire Line
+	6400 5050 6700 5050
+Connection ~ 6700 5050
+Wire Wire Line
+	6500 4350 6500 5150
+Text Label 6500 5150 3    50   ~ 0
+ColAExt
+Text Label 7150 5150 3    50   ~ 0
+ColBExt
+Text Label 7800 5150 3    50   ~ 0
+ColCExt
+Text Label 8450 5150 3    50   ~ 0
+ColDExt
+Wire Wire Line
+	6500 4350 6500 4200
+Connection ~ 6500 4350
+Wire Wire Line
+	7150 4350 7150 4200
+Connection ~ 7150 4350
+Wire Wire Line
+	7800 4350 7800 4200
+Connection ~ 7800 4350
+Wire Wire Line
+	8450 4350 8450 4200
+Connection ~ 8450 4350
 $EndSCHEMATC
