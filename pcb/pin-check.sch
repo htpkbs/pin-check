@@ -16,12 +16,12 @@ $EndDescr
 $Comp
 L power:GND #PWR02
 U 1 1 5F0AB0F0
-P 2050 5000
-F 0 "#PWR02" H 2050 4750 50  0001 C CNN
-F 1 "GND" H 2055 4827 50  0000 C CNN
-F 2 "" H 2050 5000 50  0001 C CNN
-F 3 "" H 2050 5000 50  0001 C CNN
-	1    2050 5000
+P 2200 5250
+F 0 "#PWR02" H 2200 5000 50  0001 C CNN
+F 1 "GND" H 2205 5077 50  0000 C CNN
+F 2 "" H 2200 5250 50  0001 C CNN
+F 3 "" H 2200 5250 50  0001 C CNN
+	1    2200 5250
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -57,7 +57,7 @@ F 3 "~" H 1750 7300 50  0001 C CNN
 	1    1750 7100
 	1    0    0    -1  
 $EndComp
-Text Label 2650 3700 0    50   ~ 0
+Text Label 1600 1450 2    50   ~ 0
 Reset
 Wire Wire Line
 	1150 6600 1350 6600
@@ -98,44 +98,38 @@ Wire Wire Line
 	1350 6200 1350 6100
 Text Label 1350 7100 2    50   ~ 0
 Boot
-Text Label 2650 4400 0    50   ~ 0
-Boot
 $Comp
 L Device:Crystal Y1
 U 1 1 5F13EC61
-P 3250 2850
-F 0 "Y1" V 3296 2719 50  0000 R CNN
-F 1 "16MHz" V 3205 2719 50  0000 R CNN
-F 2 "Crystal:Crystal_HC49-4H_Vertical" H 3250 2850 50  0001 C CNN
-F 3 "~" H 3250 2850 50  0001 C CNN
-	1    3250 2850
-	0    -1   -1   0   
+P 1050 1750
+F 0 "Y1" V 1096 1619 50  0000 R CNN
+F 1 "16MHz" V 1005 1619 50  0000 R CNN
+F 2 "Crystal:Crystal_HC49-4H_Vertical" H 1050 1750 50  0001 C CNN
+F 3 "~" H 1050 1750 50  0001 C CNN
+	1    1050 1750
+	0    1    1    0   
 $EndComp
 $Comp
 L Device:C C1
 U 1 1 5F13F5A0
-P 3800 2700
-F 0 "C1" V 3548 2700 50  0000 C CNN
-F 1 "22pF" V 3639 2700 50  0000 C CNN
-F 2 "Capacitor_THT:C_Rect_L4.0mm_W2.5mm_P2.50mm" H 3838 2550 50  0001 C CNN
-F 3 "~" H 3800 2700 50  0001 C CNN
-	1    3800 2700
-	0    1    1    0   
+P 500 1900
+F 0 "C1" V 248 1900 50  0000 C CNN
+F 1 "22pF" V 339 1900 50  0000 C CNN
+F 2 "Capacitor_THT:C_Rect_L4.0mm_W2.5mm_P2.50mm" H 538 1750 50  0001 C CNN
+F 3 "~" H 500 1900 50  0001 C CNN
+	1    500  1900
+	0    -1   -1   0   
 $EndComp
-Wire Wire Line
-	3050 2800 3050 2700
-Wire Wire Line
-	3050 2900 3050 3000
 $Comp
 L Device:C C2
 U 1 1 5F14C581
-P 3800 3000
-F 0 "C2" V 4052 3000 50  0000 C CNN
-F 1 "22pF" V 3961 3000 50  0000 C CNN
-F 2 "Capacitor_THT:C_Rect_L4.0mm_W2.5mm_P2.50mm" H 3838 2850 50  0001 C CNN
-F 3 "~" H 3800 3000 50  0001 C CNN
-	1    3800 3000
-	0    1    1    0   
+P 500 1600
+F 0 "C2" V 752 1600 50  0000 C CNN
+F 1 "22pF" V 661 1600 50  0000 C CNN
+F 2 "Capacitor_THT:C_Rect_L4.0mm_W2.5mm_P2.50mm" H 538 1450 50  0001 C CNN
+F 3 "~" H 500 1600 50  0001 C CNN
+	1    500  1600
+	0    -1   -1   0   
 $EndComp
 $Comp
 L Connector:USB_C_Receptacle_USB2.0 P1
@@ -170,10 +164,6 @@ F 3 "~" H 9850 2700 50  0001 C CNN
 	1    9850 2700
 	0    1    1    0   
 $EndComp
-Text Label 2650 4200 0    50   ~ 0
-D-
-Text Label 2650 4100 0    50   ~ 0
-D+
 $Comp
 L Device:D_Zener D8
 U 1 1 5F179452
@@ -345,28 +335,23 @@ NoConn ~ 8750 2850
 $Comp
 L power:+5V #PWR03
 U 1 1 5F1BC905
-P 2150 1700
-F 0 "#PWR03" H 2150 1550 50  0001 C CNN
-F 1 "+5V" H 2165 1873 50  0000 C CNN
-F 2 "" H 2150 1700 50  0001 C CNN
-F 3 "" H 2150 1700 50  0001 C CNN
-	1    2150 1700
+P 2300 950
+F 0 "#PWR03" H 2300 800 50  0001 C CNN
+F 1 "+5V" H 2315 1123 50  0000 C CNN
+F 2 "" H 2300 950 50  0001 C CNN
+F 3 "" H 2300 950 50  0001 C CNN
+	1    2300 950 
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	2150 1700 2150 1800
+	2300 950  2300 1050
 Wire Wire Line
-	2050 1900 2050 1800
+	2200 1150 2200 1050
 Wire Wire Line
-	2050 1800 2150 1800
-Connection ~ 2150 1800
+	2200 1050 2300 1050
+Connection ~ 2300 1050
 Wire Wire Line
-	2150 1800 2150 1900
-NoConn ~ 1450 2200
-Text Label 2650 2200 0    50   ~ 0
-Row0
-Text Label 2650 3100 0    50   ~ 0
-ColB
+	2300 1050 2300 1150
 $Comp
 L Mechanical:MountingHole_Pad H1
 U 1 1 5F1D617B
@@ -459,36 +444,28 @@ Connection ~ 8850 2150
 Wire Wire Line
 	8850 2150 9550 2150
 Wire Wire Line
-	3250 2700 3650 2700
+	1050 1900 650  1900
 Wire Wire Line
-	3950 3000 4200 3000
+	350  1600 100  1600
 Wire Wire Line
-	4200 3000 4200 3100
+	100  1600 100  1500
 Wire Wire Line
-	3950 2700 4200 2700
+	350  1900 100  1900
 Wire Wire Line
-	4200 2700 4200 3000
-Connection ~ 4200 3000
+	100  1900 100  1600
+Connection ~ 100  1600
 Wire Wire Line
-	3050 2700 3250 2700
-Connection ~ 3250 2700
+	1250 1900 1050 1900
+Connection ~ 1050 1900
 Wire Wire Line
-	3050 3000 3250 3000
-Connection ~ 3250 3000
+	1250 1600 1050 1600
+Connection ~ 1050 1600
 Wire Wire Line
-	3250 3000 3650 3000
-Wire Wire Line
-	3050 2800 2650 2800
-Wire Wire Line
-	2650 2900 3050 2900
+	1050 1600 650  1600
 Text Label 3900 6000 2    50   ~ 0
 ColAExt
 Text Label 3150 6000 2    50   ~ 0
 Row0Ext
-Text Label 2650 3200 0    50   ~ 0
-ColC
-Text Label 2650 3300 0    50   ~ 0
-ColD
 $Comp
 L Mechanical:MountingHole_Pad H3
 U 1 1 5F1F0A80
@@ -603,39 +580,6 @@ B3
 Text Label 5700 6000 2    50   ~ 0
 B4
 $Comp
-L MCU_Microchip_ATmega:ATmega328P-PU U1
-U 1 1 5F096C08
-P 2050 3400
-F 0 "U1" H 1406 3446 50  0000 R CNN
-F 1 "ATmega328P-PU" H 1406 3355 50  0000 R CNN
-F 2 "Package_DIP:DIP-28_W7.62mm" H 2050 3400 50  0001 C CIN
-F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/ATmega48A-PA-88A-PA-168A-PA-328-P-DS-DS40002061A.pdf" H 2050 3400 50  0001 C CNN
-	1    2050 3400
-	1    0    0    -1  
-$EndComp
-Text Label 2650 2300 0    50   ~ 0
-B1
-Text Label 2650 2400 0    50   ~ 0
-B2
-Text Label 2650 2500 0    50   ~ 0
-B3
-Text Label 2650 2600 0    50   ~ 0
-B4
-Text Label 2650 2700 0    50   ~ 0
-ColA
-Text Label 2650 3600 0    50   ~ 0
-C5
-Text Label 2650 3900 0    50   ~ 0
-D0
-Text Label 2650 4000 0    50   ~ 0
-D1
-Text Label 2650 4300 0    50   ~ 0
-D4
-Text Label 2650 4500 0    50   ~ 0
-D6
-Text Label 2650 4600 0    50   ~ 0
-D7
-$Comp
 L Mechanical:MountingHole_Pad H11
 U 1 1 5F147BE2
 P 5200 6000
@@ -714,85 +658,61 @@ $EndComp
 Text Label 4500 6800 2    50   ~ 0
 D7
 Wire Wire Line
-	3550 850  3550 950 
+	4100 1050 4100 1150
 $Comp
 L power:+5V #PWR0101
 U 1 1 5F204D0C
-P 3550 850
-F 0 "#PWR0101" H 3550 700 50  0001 C CNN
-F 1 "+5V" H 3565 1023 50  0000 C CNN
-F 2 "" H 3550 850 50  0001 C CNN
-F 3 "" H 3550 850 50  0001 C CNN
-	1    3550 850 
+P 4100 1050
+F 0 "#PWR0101" H 4100 900 50  0001 C CNN
+F 1 "+5V" H 4115 1223 50  0000 C CNN
+F 2 "" H 4100 1050 50  0001 C CNN
+F 3 "" H 4100 1050 50  0001 C CNN
+	1    4100 1050
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	3550 1950 3550 1850
+	4100 2150 4100 2050
 $Comp
 L power:GND #PWR0102
 U 1 1 5F200DFD
-P 3550 1950
-F 0 "#PWR0102" H 3550 1700 50  0001 C CNN
-F 1 "GND" H 3555 1777 50  0000 C CNN
-F 2 "" H 3550 1950 50  0001 C CNN
-F 3 "" H 3550 1950 50  0001 C CNN
-	1    3550 1950
+P 4100 2150
+F 0 "#PWR0102" H 4100 1900 50  0001 C CNN
+F 1 "GND" H 4105 1977 50  0000 C CNN
+F 2 "" H 4100 2150 50  0001 C CNN
+F 3 "" H 4100 2150 50  0001 C CNN
+	1    4100 2150
 	1    0    0    -1  
 $EndComp
 $Comp
 L Connector:AVR-ISP-6 J1
 U 1 1 5F1FB280
-P 3650 1450
-F 0 "J1" H 3321 1546 50  0000 R CNN
-F 1 "AVR-ISP-6" H 3321 1455 50  0000 R CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_2x03_P2.54mm_Vertical" V 3400 1500 50  0001 C CNN
-F 3 " ~" H 2375 900 50  0001 C CNN
-	1    3650 1450
+P 4200 1650
+F 0 "J1" H 3871 1746 50  0000 R CNN
+F 1 "AVR-ISP-6" H 3871 1655 50  0000 R CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_2x03_P2.54mm_Vertical" V 3950 1700 50  0001 C CNN
+F 3 " ~" H 2925 1100 50  0001 C CNN
+	1    4200 1650
 	1    0    0    -1  
 $EndComp
 $Comp
 L power:GND #PWR05
 U 1 1 5F122095
-P 4200 3100
-F 0 "#PWR05" H 4200 2850 50  0001 C CNN
-F 1 "GND" H 4205 2927 50  0000 C CNN
-F 2 "" H 4200 3100 50  0001 C CNN
-F 3 "" H 4200 3100 50  0001 C CNN
-	1    4200 3100
-	1    0    0    -1  
+P 100 1500
+F 0 "#PWR05" H 100 1250 50  0001 C CNN
+F 1 "GND" H 105 1327 50  0000 C CNN
+F 2 "" H 100 1500 50  0001 C CNN
+F 3 "" H 100 1500 50  0001 C CNN
+	1    100  1500
+	-1   0    0    1   
 $EndComp
-Text Label 4050 1550 0    50   ~ 0
+Text Label 4600 1750 0    50   ~ 0
 Reset
 Wire Wire Line
-	4500 1450 4050 1450
+	5050 1650 4600 1650
 Wire Wire Line
-	3000 2700 2650 2700
+	5000 1450 4600 1450
 Wire Wire Line
-	2950 2600 2650 2600
-Wire Wire Line
-	2900 2500 2650 2500
-Wire Wire Line
-	3000 2350 4500 2350
-Wire Wire Line
-	4500 1450 4500 2350
-Wire Wire Line
-	3000 2700 3000 2350
-Wire Wire Line
-	2950 2300 2950 2600
-Wire Wire Line
-	2900 2500 2900 2250
-Wire Wire Line
-	4450 2300 2950 2300
-Wire Wire Line
-	4450 2300 4450 1250
-Wire Wire Line
-	4450 1250 4050 1250
-Wire Wire Line
-	4400 2250 2900 2250
-Wire Wire Line
-	4400 2250 4400 1350
-Wire Wire Line
-	4050 1350 4400 1350
+	4600 1550 4950 1550
 $Comp
 L Device:C C3
 U 1 1 5F2A1AC1
@@ -855,8 +775,8 @@ Solder Pads For Additional Rows and Columns
 Text Notes 1050 5800 0    63   ~ 0
 Boot and Reset Switches
 Wire Wire Line
-	2050 4900 2050 5000
-Text Notes 800  1200 0    63   ~ 0
+	2200 5150 2200 5250
+Text Notes 1150 1050 0    63   ~ 0
 Microcontroller, Crystal, and ISP Headers
 Text Notes 5150 1700 0    63   ~ 0
 Decoupling Capacitors
@@ -922,10 +842,6 @@ F 3 "~" H 7900 6200 50  0001 C CNN
 $EndComp
 Text Notes 7450 5800 0    63   ~ 0
 Mounting Holes
-Text Label 2650 3400 0    50   ~ 0
-C3
-Text Label 2650 3500 0    50   ~ 0
-C4
 Text Label 5100 6400 2    50   ~ 0
 C3
 Text Label 5100 6200 2    50   ~ 0
@@ -1018,9 +934,9 @@ Wire Wire Line
 	4700 4350 5000 4350
 Connection ~ 4700 4350
 Text Label 5100 4750 0    50   ~ 0
-C5
+C0
 Text Label 5100 4950 0    50   ~ 0
-C4
+C1
 Text Notes 4200 3900 0    63   ~ 0
 TRRS Jack
 $Comp
@@ -1194,4 +1110,51 @@ Connection ~ 7800 4350
 Wire Wire Line
 	8450 4350 8450 4200
 Connection ~ 8450 4350
+$Comp
+L MCU_Microchip_ATmega:ATmega32A-PU U1
+U 1 1 5F262B80
+P 2200 3150
+F 0 "U1" H 2200 1061 50  0000 C CNN
+F 1 "ATmega32A-PU" H 1350 3150 50  0000 C CNN
+F 2 "Package_DIP:DIP-40_W15.24mm" H 2200 3150 50  0001 C CIN
+F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/atmel-8155-8-bit-microcontroller-avr-atmega32a_datasheet.pdf" H 2200 3150 50  0001 C CNN
+	1    2200 3150
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1600 1650 1250 1650
+Wire Wire Line
+	1250 1650 1250 1600
+Wire Wire Line
+	1600 1850 1250 1850
+Wire Wire Line
+	1250 1850 1250 1900
+Wire Wire Line
+	4950 1550 4950 2450
+Wire Wire Line
+	4950 2450 3250 2450
+Wire Wire Line
+	3250 2450 3250 2850
+Wire Wire Line
+	3250 2850 2800 2850
+Wire Wire Line
+	5000 1450 5000 2550
+Wire Wire Line
+	5000 2550 3350 2550
+Wire Wire Line
+	3350 2550 3350 2950
+Wire Wire Line
+	3350 2950 2800 2950
+Wire Wire Line
+	5050 1650 5050 2650
+Wire Wire Line
+	5050 2650 3450 2650
+Wire Wire Line
+	3450 2650 3450 3050
+Wire Wire Line
+	3450 3050 2800 3050
+Text Label 2800 3250 0    50   ~ 0
+C0
+Text Label 2800 3350 0    50   ~ 0
+C1
 $EndSCHEMATC
