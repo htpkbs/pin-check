@@ -468,4 +468,16 @@ F 3 "" H 6900 1350 50  0001 C CNN
 	1    6900 1350
 	1    0    0    -1  
 $EndComp
+$Comp
+L Mechanical:MountingHole_Pad H18
+U 1 1 5F2FC578
+P 3900 4100
+F 0 "H18" V 3854 4250 50  0000 L CNN
+F 1 "MountingHole_Pad" V 3945 4250 50  0000 L CNN
+F 2 "Connector_Wire:SolderWire-0.25sqmm_1x01_D0.65mm_OD2mm" H 3900 4100 50  0001 C CNN
+F 3 "~" H 3900 4100 50  0001 C CNN
+	1    3900 4100
+	0    1    1    0   
+$EndComp
+NoConn ~ 3800 4100
 $EndSCHEMATC
