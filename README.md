@@ -80,7 +80,7 @@ TODO: Add information about hand-wiring and required parts (more diodes!).
 
 TODO: Add instructions about creating a keymap in QMK and flashing it onto the keyboard. Mention that H11 and H12 are not available to use for rows or columns if you're setting up a split keyboard!
 
-There are a few different configuration options and combinations for using the pin-check for a split keyboard, or using it to support layouts that require more than 17 I/O pins. This table should hopefully cover most use cases and explain the usage of I2C in each case. The pin-check board alone has 17 I/O pins. If you use the TRRS jack or I2C headers to attach another device with I2C, pins `C4` and `C5` are used for I2C and are unavailable for I/O. Attaching the expansion board via I2C also makes pins `C4` and `C5` unavailable for I/O.
+There are a few different configuration options and combinations for using the pin-check for a split keyboard, or using it to support layouts that require more than 17 I/O pins. This table should hopefully cover most use cases and explain the usage of I2C in each case. The pin-check board alone has 17 I/O pins. If you use the TRRS jack (for a split keyboard) or I2C headers (to attach another device like the port expander with I2C), pins `C4` and `C5` are used for I2C and are unavailable for I/O.
 
 | Keyboard | Split | Boards/kits required | I/O pins available | Notes/caveats |
 | --- | --- | --- | --- | --- |
