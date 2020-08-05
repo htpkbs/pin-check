@@ -1272,6 +1272,78 @@ Wire Wire Line
 	2100 6650 1700 6650
 Wire Wire Line
 	1700 6650 1700 6750
-Text Notes 1600 5800 0    63   ~ 0
+Text Notes 1550 5800 0    63   ~ 0
 I2C/TWI Solder Pads
+$Comp
+L Connector:Conn_01x06_Female J?
+U 1 1 5F329D4B
+P 5250 3200
+F 0 "J?" H 5278 3176 50  0000 L CNN
+F 1 "Conn_01x06_Female" H 5278 3085 50  0000 L CNN
+F 2 "" H 5250 3200 50  0001 C CNN
+F 3 "~" H 5250 3200 50  0001 C CNN
+	1    5250 3200
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:Conn_01x06_Female J?
+U 1 1 5F32AAE9
+P 6650 3200
+F 0 "J?" H 6678 3176 50  0000 L CNN
+F 1 "Conn_01x06_Female" H 6678 3085 50  0000 L CNN
+F 2 "" H 6650 3200 50  0001 C CNN
+F 3 "~" H 6650 3200 50  0001 C CNN
+	1    6650 3200
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+5V #PWR?
+U 1 1 5F32CDE3
+P 4950 2900
+F 0 "#PWR?" H 4950 2750 50  0001 C CNN
+F 1 "+5V" H 4965 3073 50  0000 C CNN
+F 2 "" H 4950 2900 50  0001 C CNN
+F 3 "" H 4950 2900 50  0001 C CNN
+	1    4950 2900
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4950 2900 4950 3000
+Wire Wire Line
+	4950 3000 5050 3000
+Text Label 5050 3100 2    50   ~ 0
+SDA
+$Comp
+L power:GND #PWR?
+U 1 1 5F333F16
+P 4800 3300
+F 0 "#PWR?" H 4800 3050 50  0001 C CNN
+F 1 "GND" H 4805 3127 50  0000 C CNN
+F 2 "" H 4800 3300 50  0001 C CNN
+F 3 "" H 4800 3300 50  0001 C CNN
+	1    4800 3300
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4800 3300 4800 3200
+Wire Wire Line
+	4800 3200 5050 3200
+Text Label 5050 3300 2    50   ~ 0
+SCL
+Text Label 5050 3400 2    50   ~ 0
+GP0
+Text Label 5050 3500 2    50   ~ 0
+GP1
+Text Label 6450 3000 2    50   ~ 0
+GP2
+Text Label 6450 3100 2    50   ~ 0
+GP3
+Text Label 6450 3200 2    50   ~ 0
+GP4
+Text Label 6450 3300 2    50   ~ 0
+GP5
+Text Label 6450 3400 2    50   ~ 0
+GP6
+Text Label 6450 3500 2    50   ~ 0
+GP7
 $EndSCHEMATC
