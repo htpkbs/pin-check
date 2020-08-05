@@ -80,13 +80,13 @@ TODO: Add information about hand-wiring and required parts (more diodes!).
 
 TODO: Add instructions about creating a keymap in QMK and flashing it onto the keyboard. Mention that H11 and H12 are not available to use for rows or columns if you're setting up a split keyboard!
 
-There are a few different configuration options and combinations for using the pin-check for a split keyboard, or using it to support layouts that require more than 17 I/O pins. This table should hopefully cover most use cases and explain the usage of I2C in each case. The pin-check board alone has 17 I/O pins. If you use the TRRS jack (for a split keyboard) or I2C headers (to attach another device like the port expander with I2C), pins `C4` and `C5` are used for I2C and are unavailable for I/O.
+There are a few different configuration options and combinations for using the pin-check for a split keyboard, or using it to support layouts that require more than 17 I/O pins. This table should hopefully cover most use cases and explain the usage of I2C in each case. The pin-check board alone has 18 I/O pins. If you use the TRRS jack (for a split keyboard) or I2C headers (to attach another device like the port expander with I2C), pins `C4` and `C5` are used for I2C and are unavailable for I/O.
 
 | Keyboard | Split | Boards/kits required | I/O pins available | Notes/caveats |
 | --- | --- | --- | --- | --- |
-| 4x12 or 5x12 ortholinear | No | 1 pin-check | 17 | Pins `C4` and `C5` are used for I/O, so I2C with TRRS jack or I2C headers can not be used |
-| 4x12 or 5x12 ortholinear | Yes | 2 pin-checks | 15 per half | Pins `C4` and `C5` are used for I2C, so they are not available for I/O |
-| 60% keyboard | No | 1 pin-check and 1 pin-check expansion | 24 | Pins `C4` and `C5` are used for I2C, so they are not available for I/O |
+| 4x12 or 5x12 ortholinear | No | 1 pin-check | 18 | Pins `C4` and `C5` are used for I/O, so I2C with TRRS jack or I2C headers can not be used |
+| 4x12, 5x12, 6x10 (🤷) ortholinear | Yes | 2 pin-checks | 16 per half | Pins `C4` and `C5` are used for I2C, so they are not available for I/O |
+| 60% keyboard | No | 1 pin-check and 1 pin-check expansion | 24 | Pins `C4` and `C5` are used for I2C, so they are not available for I/O. Can be done without the expansion board with some creative wiring of a 5x13 matrix |
 | Tenkeyless | No | 1 pin-check and 1 pin-check expansion | 24 | Does require some slight creative wiring to create a 7 row by 17 column matrix (instead of 7x18) |
 
 # Acknowledgments and Sublicenses
