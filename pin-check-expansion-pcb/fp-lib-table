@@ -1,0 +1,3 @@
+(fp_lib_table
+  (lib (name pin-check-expansion.pretty)(type KiCad)(uri ${KIPRJMOD}/pin-check-expansion.pretty)(options "")(descr ""))
+)
