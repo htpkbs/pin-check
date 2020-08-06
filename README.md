@@ -85,7 +85,7 @@ There are a few different configuration options and combinations for using the p
 | Keyboard | Split | Boards/kits required | I/O pins available | Notes/caveats |
 | --- | --- | --- | --- | --- |
 | 4x12 or 5x12 ortholinear | No | 1 pin-check | 18 | Pins `C4` and `C5` are used for I/O, so I2C with TRRS jack or I2C headers can not be used |
-| 4x12, 5x12, 6x10 (🤷) ortholinear | Yes | 2 pin-checks | 16 per half | Pins `C4` and `C5` are used for I2C, so they are not available for I/O |
+| 4x12, 5x12, 6x20 (🤷) ortholinear | Yes | 2 pin-checks | 16 per half | Pins `C4` and `C5` are used for I2C, so they are not available for I/O |
 | 60% keyboard | No | 1 pin-check and 1 pin-check expansion | 24 | Pins `C4` and `C5` are used for I2C, so they are not available for I/O. Can be done without the expansion board with some creative wiring of a 5x13 matrix |
 | Tenkeyless | No | 1 pin-check and 1 pin-check expansion | 24 | Does require some slight creative wiring to create a 7 row by 17 column matrix (instead of 7x18) |
 

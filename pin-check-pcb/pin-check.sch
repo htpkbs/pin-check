@@ -873,10 +873,10 @@ Connection ~ 5650 2100
 Wire Wire Line
 	5650 2100 6050 2100
 $Comp
-L Mechanical:MountingHole H23
+L Mechanical:MountingHole H19
 U 1 1 5F14FC44
 P 8250 6000
-F 0 "H23" H 8350 6046 50  0000 L CNN
+F 0 "H19" H 8350 6046 50  0000 L CNN
 F 1 "MountingHole" H 8350 5955 50  0000 L CNN
 F 2 "MountingHole:MountingHole_2.2mm_M2" H 8250 6000 50  0001 C CNN
 F 3 "~" H 8250 6000 50  0001 C CNN
@@ -884,10 +884,10 @@ F 3 "~" H 8250 6000 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Mechanical:MountingHole H25
+L Mechanical:MountingHole H21
 U 1 1 5F150145
 P 9000 6000
-F 0 "H25" H 9100 6046 50  0000 L CNN
+F 0 "H21" H 9100 6046 50  0000 L CNN
 F 1 "MountingHole" H 9100 5955 50  0000 L CNN
 F 2 "MountingHole:MountingHole_2.2mm_M2" H 9000 6000 50  0001 C CNN
 F 3 "~" H 9000 6000 50  0001 C CNN
@@ -895,10 +895,10 @@ F 3 "~" H 9000 6000 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Mechanical:MountingHole H24
+L Mechanical:MountingHole H20
 U 1 1 5F15037C
 P 8250 6200
-F 0 "H24" H 8350 6246 50  0000 L CNN
+F 0 "H20" H 8350 6246 50  0000 L CNN
 F 1 "MountingHole" H 8350 6155 50  0000 L CNN
 F 2 "MountingHole:MountingHole_2.2mm_M2" H 8250 6200 50  0001 C CNN
 F 3 "~" H 8250 6200 50  0001 C CNN
@@ -906,10 +906,10 @@ F 3 "~" H 8250 6200 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Mechanical:MountingHole H26
+L Mechanical:MountingHole H22
 U 1 1 5F151956
 P 9000 6200
-F 0 "H26" H 9100 6246 50  0000 L CNN
+F 0 "H22" H 9100 6246 50  0000 L CNN
 F 1 "MountingHole" H 9100 6155 50  0000 L CNN
 F 2 "MountingHole:MountingHole_2.2mm_M2" H 9000 6200 50  0001 C CNN
 F 3 "~" H 9000 6200 50  0001 C CNN
@@ -1190,86 +1190,34 @@ Connection ~ 7450 4350
 Wire Wire Line
 	8100 4350 8100 4200
 Connection ~ 8100 4350
-$Comp
-L Mechanical:MountingHole_Pad H19
-U 1 1 5F2A2AA0
-P 2200 6850
-F 0 "H19" V 2154 7000 50  0000 L CNN
-F 1 "Pad" V 2245 7000 50  0000 L CNN
-F 2 "Connector_Wire:SolderWire-0.5sqmm_1x01_D0.9mm_OD2.1mm" H 2200 6850 50  0001 C CNN
-F 3 "~" H 2200 6850 50  0001 C CNN
-	1    2200 6850
-	0    1    1    0   
-$EndComp
-$Comp
-L Mechanical:MountingHole_Pad H20
-U 1 1 5F2A327C
-P 2200 6650
-F 0 "H20" V 2154 6800 50  0000 L CNN
-F 1 "Pad" V 2245 6800 50  0000 L CNN
-F 2 "Connector_Wire:SolderWire-0.5sqmm_1x01_D0.9mm_OD2.1mm" H 2200 6650 50  0001 C CNN
-F 3 "~" H 2200 6650 50  0001 C CNN
-	1    2200 6650
-	0    1    1    0   
-$EndComp
-$Comp
-L Mechanical:MountingHole_Pad H21
-U 1 1 5F2A3560
-P 2200 6450
-F 0 "H21" V 2154 6600 50  0000 L CNN
-F 1 "Pad" V 2245 6600 50  0000 L CNN
-F 2 "Connector_Wire:SolderWire-0.5sqmm_1x01_D0.9mm_OD2.1mm" H 2200 6450 50  0001 C CNN
-F 3 "~" H 2200 6450 50  0001 C CNN
-	1    2200 6450
-	0    1    1    0   
-$EndComp
-$Comp
-L Mechanical:MountingHole_Pad H22
-U 1 1 5F2A3845
-P 2200 6250
-F 0 "H22" V 2154 6400 50  0000 L CNN
-F 1 "Pad" V 2245 6400 50  0000 L CNN
-F 2 "Connector_Wire:SolderWire-0.5sqmm_1x01_D0.9mm_OD2.1mm" H 2200 6250 50  0001 C CNN
-F 3 "~" H 2200 6250 50  0001 C CNN
-	1    2200 6250
-	0    1    1    0   
-$EndComp
-Text Label 2100 6850 2    50   ~ 0
+Text Label 1950 6600 2    50   ~ 0
 SCL
-Text Label 2100 6450 2    50   ~ 0
+Text Label 1950 6400 2    50   ~ 0
 SDA
 $Comp
 L power:+5V #PWR0105
 U 1 1 5F2A5081
-P 2000 6150
-F 0 "#PWR0105" H 2000 6000 50  0001 C CNN
-F 1 "+5V" H 2015 6323 50  0000 C CNN
-F 2 "" H 2000 6150 50  0001 C CNN
-F 3 "" H 2000 6150 50  0001 C CNN
-	1    2000 6150
+P 1850 6200
+F 0 "#PWR0105" H 1850 6050 50  0001 C CNN
+F 1 "+5V" H 1865 6373 50  0000 C CNN
+F 2 "" H 1850 6200 50  0001 C CNN
+F 3 "" H 1850 6200 50  0001 C CNN
+	1    1850 6200
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	2100 6250 2000 6250
-Wire Wire Line
-	2000 6250 2000 6150
 $Comp
 L power:GND #PWR0106
 U 1 1 5F2AAF65
-P 1700 6750
-F 0 "#PWR0106" H 1700 6500 50  0001 C CNN
-F 1 "GND" H 1705 6577 50  0000 C CNN
-F 2 "" H 1700 6750 50  0001 C CNN
-F 3 "" H 1700 6750 50  0001 C CNN
-	1    1700 6750
+P 1700 6700
+F 0 "#PWR0106" H 1700 6450 50  0001 C CNN
+F 1 "GND" H 1705 6527 50  0000 C CNN
+F 2 "" H 1700 6700 50  0001 C CNN
+F 3 "" H 1700 6700 50  0001 C CNN
+	1    1700 6700
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	2100 6650 1700 6650
-Wire Wire Line
-	1700 6650 1700 6750
 Text Notes 1550 5800 0    63   ~ 0
-I2C/TWI Solder Pads
+I2C/TWI Solder Holes
 Text Label 2650 4400 0    50   ~ 0
 D5
 Text Label 9800 5200 2    50   ~ 0
@@ -1287,4 +1235,23 @@ F 3 "~" H 5250 6600 50  0001 C CNN
 $EndComp
 Text Label 5150 6600 2    50   ~ 0
 D5
+$Comp
+L Connector_Generic:Conn_01x04 J3
+U 1 1 5F2D3DE2
+P 2150 6400
+F 0 "J3" H 2230 6392 50  0000 L CNN
+F 1 "Conn_01x04" H 2230 6301 50  0000 L CNN
+F 2 "Connector_PinSocket_2.54mm:PinSocket_1x04_P2.54mm_Vertical" H 2150 6400 50  0001 C CNN
+F 3 "~" H 2150 6400 50  0001 C CNN
+	1    2150 6400
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1950 6300 1850 6300
+Wire Wire Line
+	1850 6300 1850 6200
+Wire Wire Line
+	1950 6500 1700 6500
+Wire Wire Line
+	1700 6500 1700 6700
 $EndSCHEMATC
