@@ -643,7 +643,7 @@ F 3 "~" H 5850 6000 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 Text Label 5750 6000 2    50   ~ 0
-C5
+SCL
 $Comp
 L Mechanical:MountingHole_Pad H6
 U 1 1 5F148976
@@ -925,7 +925,7 @@ SDA
 Text Label 5750 6400 2    50   ~ 0
 C3
 Text Label 5750 6200 2    50   ~ 0
-C4
+SDA
 $Comp
 L pin-check:SJ-43514 J2
 U 1 1 5F1976DA
