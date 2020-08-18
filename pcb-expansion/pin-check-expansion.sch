@@ -14,74 +14,16 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L Interface_Expansion:MCP23008-xP U1
-U 1 1 5F2A27F5
-P 2150 2100
-F 0 "U1" H 2150 3050 50  0000 C CNN
-F 1 "MCP23008-xP" H 2150 2950 50  0000 C CNN
-F 2 "Package_DIP:DIP-18_W7.62mm" H 2150 1050 50  0001 C CNN
-F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/MCP23008-MCP23S08-Data-Sheet-20001919F.pdf" H 3450 900 50  0001 C CNN
-	1    2150 2100
-	1    0    0    -1  
-$EndComp
-Text Label 2150 1500 1    50   ~ 0
-VCC
-$Comp
-L power:GND #PWR03
-U 1 1 5F2A5B41
-P 2150 2800
-F 0 "#PWR03" H 2150 2550 50  0001 C CNN
-F 1 "GND" H 2155 2627 50  0000 C CNN
-F 2 "" H 2150 2800 50  0001 C CNN
-F 3 "" H 2150 2800 50  0001 C CNN
-	1    2150 2800
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	2150 2700 2150 2800
-Text Label 1650 1800 2    50   ~ 0
-SCL
-Text Label 1650 1900 2    50   ~ 0
-SDA
-$Comp
-L power:+5V #PWR01
-U 1 1 5F2A7CE5
-P 1400 1600
-F 0 "#PWR01" H 1400 1450 50  0001 C CNN
-F 1 "+5V" H 1415 1773 50  0000 C CNN
-F 2 "" H 1400 1600 50  0001 C CNN
-F 3 "" H 1400 1600 50  0001 C CNN
-	1    1400 1600
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	1400 1700 1400 1600
-NoConn ~ 1650 2100
-$Comp
 L power:GND #PWR02
 U 1 1 5F2A91F4
-P 1400 2600
-F 0 "#PWR02" H 1400 2350 50  0001 C CNN
-F 1 "GND" H 1405 2427 50  0000 C CNN
-F 2 "" H 1400 2600 50  0001 C CNN
-F 3 "" H 1400 2600 50  0001 C CNN
-	1    1400 2600
+P 1100 5450
+F 0 "#PWR02" H 1100 5200 50  0001 C CNN
+F 1 "GND" H 1105 5277 50  0000 C CNN
+F 2 "" H 1100 5450 50  0001 C CNN
+F 3 "" H 1100 5450 50  0001 C CNN
+	1    1100 5450
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	1400 2600 1400 2500
-Wire Wire Line
-	1400 2500 1650 2500
-Wire Wire Line
-	1650 2300 1400 2300
-Wire Wire Line
-	1400 2300 1400 2400
-Connection ~ 1400 2500
-Wire Wire Line
-	1650 2400 1400 2400
-Wire Wire Line
-	1400 2400 1400 2500
-Connection ~ 1400 2400
 $Comp
 L Mechanical:MountingHole_Pad H5
 U 1 1 5F2A96E2
@@ -160,18 +102,6 @@ F 3 "~" H 4700 2800 50  0001 C CNN
 $EndComp
 Text Label 4600 2800 2    50   ~ 0
 GP7
-Text Label 2650 1700 0    50   ~ 0
-ColE
-Text Label 2650 2000 0    50   ~ 0
-GP3
-Text Label 2650 2100 0    50   ~ 0
-GP4
-Text Label 2650 2200 0    50   ~ 0
-GP5
-Text Label 2650 2300 0    50   ~ 0
-GP6
-Text Label 2650 2400 0    50   ~ 0
-GP7
 $Comp
 L pin-check-expansion:MX-NoLED SW1
 U 1 1 5F2A2F7B
@@ -194,8 +124,6 @@ F 3 "~" H 3150 2750 50  0001 C CNN
 	1    3150 2750
 	0    1    1    0   
 $EndComp
-Text Label 2650 1900 0    50   ~ 0
-GP2
 Text Label 3050 2750 2    50   ~ 0
 Row0
 $Comp
@@ -241,8 +169,6 @@ Text Label 6250 4400 2    50   ~ 0
 Row0
 Text Label 7550 4400 0    50   ~ 0
 Row0Ext
-Text Label 2650 1800 0    50   ~ 0
-ColF
 $Comp
 L Mechanical:MountingHole_Pad H3
 U 1 1 5F2AC0BD
@@ -254,8 +180,6 @@ F 3 "~" H 3150 3150 50  0001 C CNN
 	1    3150 3150
 	0    1    1    0   
 $EndComp
-Wire Wire Line
-	1400 1700 1550 1700
 $Comp
 L power:PWR_FLAG #FLG01
 U 1 1 5F2ADB80
@@ -273,13 +197,6 @@ Wire Wire Line
 	3550 1300 3550 1400
 Wire Wire Line
 	3550 1400 3650 1400
-Wire Wire Line
-	1550 1700 1550 1600
-Connection ~ 1550 1700
-Wire Wire Line
-	1550 1700 1650 1700
-Text Label 1550 1600 1    50   ~ 0
-VCC
 $Comp
 L power:GND #PWR04
 U 1 1 5F2AEDFF
@@ -480,4 +397,104 @@ F 3 "~" H 3900 4100 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 NoConn ~ 3800 4100
+$Comp
+L Interface_Expansion:MCP23017_SP U1
+U 1 1 5F3C44D9
+P 1900 4550
+F 0 "U1" H 1900 6000 50  0000 C CNN
+F 1 "MCP23017_SP" H 1900 5900 50  0000 C CNN
+F 2 "Package_DIP:DIP-28_W7.62mm" H 2100 3550 50  0001 L CNN
+F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/20001952C.pdf" H 2100 3450 50  0001 L CNN
+	1    1900 4550
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1200 5350 1100 5350
+Wire Wire Line
+	1200 5250 1100 5250
+Wire Wire Line
+	1100 5250 1100 5350
+Connection ~ 1100 5350
+Wire Wire Line
+	1100 5350 1100 5450
+Wire Wire Line
+	1200 5150 1100 5150
+Wire Wire Line
+	1100 5150 1100 5250
+Connection ~ 1100 5250
+$Comp
+L power:GND #PWR0102
+U 1 1 5F3C6916
+P 1900 5750
+F 0 "#PWR0102" H 1900 5500 50  0001 C CNN
+F 1 "GND" H 1905 5577 50  0000 C CNN
+F 2 "" H 1900 5750 50  0001 C CNN
+F 3 "" H 1900 5750 50  0001 C CNN
+	1    1900 5750
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1900 5650 1900 5750
+Text Label 2600 4650 0    50   ~ 0
+ColE
+Text Label 2600 4750 0    50   ~ 0
+ColF
+Text Label 2600 3950 0    50   ~ 0
+GPB2
+Text Label 2600 4050 0    50   ~ 0
+GPB3
+Text Label 2600 4150 0    50   ~ 0
+GPB4
+Text Label 2600 4250 0    50   ~ 0
+GPB5
+Text Label 2600 3750 0    50   ~ 0
+GPB0
+Text Label 2600 3850 0    50   ~ 0
+GPB1
+Text Label 2600 4350 0    50   ~ 0
+GPB6
+Text Label 2600 4450 0    50   ~ 0
+GPB7
+Text Label 2600 4850 0    50   ~ 0
+GPA2
+Text Label 2600 4950 0    50   ~ 0
+GPA3
+Text Label 2600 5050 0    50   ~ 0
+GPA4
+Text Label 2600 5150 0    50   ~ 0
+GPA5
+Text Label 2600 5250 0    50   ~ 0
+GPA6
+Text Label 2600 5350 0    50   ~ 0
+GPA7
+NoConn ~ 1200 4350
+NoConn ~ 1200 4450
+$Comp
+L power:+5V #PWR0103
+U 1 1 5F3CACB3
+P 900 4500
+F 0 "#PWR0103" H 900 4350 50  0001 C CNN
+F 1 "+5V" H 915 4673 50  0000 C CNN
+F 2 "" H 900 4500 50  0001 C CNN
+F 3 "" H 900 4500 50  0001 C CNN
+	1    900  4500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1200 4650 1100 4650
+Wire Wire Line
+	900  4650 900  4500
+Text Label 1100 4550 1    50   ~ 0
+VCC
+Wire Wire Line
+	1100 4550 1100 4650
+Connection ~ 1100 4650
+Wire Wire Line
+	1100 4650 900  4650
+Text Label 1200 3750 2    50   ~ 0
+SDA
+Text Label 1200 3850 2    50   ~ 0
+SCL
+Text Label 1900 3450 1    50   ~ 0
+VCC
 $EndSCHEMATC
