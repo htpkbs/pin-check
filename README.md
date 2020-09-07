@@ -48,7 +48,7 @@ All of the required electrical components and quantities are listed in the [bill
 ## Bootloader
 <a name="bootloader" />
 
-To flash new QMK keyboard layouts onto the keyboard (without using an AVR programmer or the ISP pins), the bootloader on the ATmega328P microcontroller unit (MCU) needs to support USB. [USBaspLoader](https://github.com/baerwolf/USBaspLoader) is bootloader for AVR MCUs that uses [V-USB](https://www.obdev.at/products/vusb/index.html) for USB support.
+To flash new QMK keyboard layouts onto the keyboard (without using an AVR programmer or the ISP pins), the bootloader on the ATmega328P microcontroller unit (MCU) needs to support USB. [USBaspLoader](https://github.com/baerwolf/USBaspLoader) is a bootloader for AVR MCUs that uses [V-USB](https://www.obdev.at/products/vusb/index.html) for USB support.
 
 TODO: Add instructions to use avrdude with either an AVR programmer or Raspberry Pi GPIO pins to flash the bootloader onto a fresh chip/MCU.
 
@@ -60,7 +60,7 @@ If you want to mount a clear acrylic window above the exposed portion of the PCB
 # Building the Kit
 <a name="building-the-kit" />
 
-There will be instructions here for assembling the kit (soldering components onto the PCB).
+There may be instructions here for assembling the kit (soldering components onto the PCB) at some point. It should be fairly straightforward if you know how to solder. The hardest part to solder is the USB-C jack. It's helpful to apply some flux (with a flux pen) to the smaller pins, get some solder on your iron, and drag it across the pins. It's also helpful to use some sort of magnifier to make sure all of the pins are soldered correctly.
 
 # Designing a Keyboard
 <a name="designing-a-keyboard" />
@@ -80,14 +80,7 @@ TODO: Add information about hand-wiring and required parts (more diodes!).
 
 TODO: Add instructions about creating a keymap in QMK and flashing it onto the keyboard. Mention that H11 and H12 are not available to use for rows or columns if you're setting up a split keyboard!
 
-There are a few different configuration options and combinations for using the pin-check for a split keyboard, or using it to support layouts that require more than 17 I/O pins. This table should hopefully cover most use cases and explain the usage of I2C in each case. The pin-check board alone has 18 I/O pins. If you use the TRRS jack (for a split keyboard) or I2C headers (to attach another device like the port expander with I2C), pins `C4` and `C5` are used for I2C and are unavailable for I/O.
-
-| Keyboard | Split | Boards/kits required | I/O pins available | Notes/caveats |
-| --- | --- | --- | --- | --- |
-| 4x12, 5x12, or 6x12 ortholinear | No | 1 pin-check | 18 | Pins `C4` and `C5` are used for I/O, so I2C with TRRS jack or I2C headers can not be used |
-| 4x12, 5x12, 6x12, or 6x20 (🤷) ortholinear | Yes | 2 pin-checks | 16 per half | Pins `C4` and `C5` are used for I2C, so they are not available for I/O |
-| 60% keyboard | No | 1 pin-check and 1 pin-check expansion | 24 | Pins `C4` and `C5` are used for I2C, so they are not available for I/O. Can be done without the expansion board with some creative wiring of a 5x13 matrix |
-| Tenkeyless | No | 1 pin-check and 1 pin-check expansion | 24 | Does require some slight creative wiring to create a 7 row by 17 column matrix (instead of 7x18) |
+FYI: The pin-check board alone has 18 I/O pins. If you use the TRRS jack (for a split keyboard) or I2C headers (to attach another device), pins `C4` and `C5` are used for I2C and are unavailable for I/O.
 
 # Acknowledgments and Sublicenses
 <a name="acknowledgments-and-sublicenses" />
