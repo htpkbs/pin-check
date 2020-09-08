@@ -2,10 +2,10 @@
 
 SW1-SW6 (keyswitches), H1-H17 (just empty solder holes on the PCB), and H18-H21 (window mounting holes) are not included.
 
-| Reference | Quantity | Value | Manufacturer | Manufacturer Part No. | DigiKey Link |
-| --- | --- | --- | --- | --- | --- |
-| C1, C2 | 2 | 22pF | Vishay BC Components | K220J15C0GH53L2 | https://www.digikey.com/product-detail/en/vishay-bc-components/K220J15C0GH53L2/BC5147-ND/2821627 |
-| C3 | 1 | 4.7u | Panasonic Electronic Components | ECE-A1HKA4R7 | https://www.digikey.com/product-detail/en/panasonic-electronic-components/ECE-A1HKA4R7/P827-ND/6934 |
+| Image | Reference | Quantity | Value | Manufacturer | Manufacturer Part No. | DigiKey Link |
+| --- | --- | --- | --- | --- | --- | --- |
+| ![C1, C2](assets/photos/C1-C2.jpg) | C1, C2 | 2 | 22pF | Vishay BC Components | K220J15C0GH53L2 | https://www.digikey.com/product-detail/en/vishay-bc-components/K220J15C0GH53L2/BC5147-ND/2821627 |
+| ![C3](assets/photos/C3.jpg) | C3 | 1 | 4.7u | Panasonic Electronic Components | ECE-A1HKA4R7 | https://www.digikey.com/product-detail/en/panasonic-electronic-components/ECE-A1HKA4R7/P827-ND/6934 |
 | C4, C5 | 2 | 0.1u | Vishay BC Components | K104Z15Y5VF5TL2 | https://www.digikey.com/product-detail/en/vishay-bc-components/K104Z15Y5VF5TL2/BC1160CT-ND/286782 |
 | D1-D4 | 4 | 1N4148 | Vishay Semiconductor Diodes Division | TZX3V6B-TR | https://www.digikey.com/product-detail/en/vishay-semiconductor-diodes-division/TZX3V6B-TR/TZX3V6B-TRGICT-ND/9601328 |
 | D7, D8 | 2 | 3.6V | Vishay Semiconductor Diodes Division | 1N4148TR | https://www.digikey.com/product-detail/en/vishay-semiconductor-diodes-division/1N4148TR/1N4148VSCT-ND/3104297 |
@@ -20,5 +20,6 @@ SW1-SW6 (keyswitches), H1-H17 (just empty solder holes on the PCB), and H18-H21 
 | R7, R8 | 2 | 4.7k | Vishay BC Components | MBA02040C5101FCT00 | https://www.digikey.com/product-detail/en/vishay-bc-components/MBA02040C4701FCT00/BC3275CT-ND/6138778 |
 | SW7 | 1 | Reset | TE Connectivity ALCOSWITCH Switches | 1825910-3 | https://www.digikey.com/product-detail/en/te-connectivity-alcoswitch-switches/1825910-3/450-3354-ND/2400476 |
 | SW8 | 1 | Boot | TE Connectivity ALCOSWITCH Switches | 1825910-2 | https://www.digikey.com/product-detail/en/te-connectivity-alcoswitch-switches/1825910-2/450-1649-ND/1632535 |
-| U1 | 1 | ATmega328P-PU | Microchip Technology | ATMEGA328P-PU | https://www.digikey.com/product-detail/en/microchip-technology/ATMEGA328P-PU/ATMEGA328P-PU-ND/1914589<br />https://www.digikey.com/product-detail/en/mill-max-manufacturing-corp/115-43-328-41-001000/ED90203-ND/1212100 |
+| U1 | 1 | ATmega328P-PU | Microchip Technology | ATMEGA328P-PU | https://www.digikey.com/product-detail/en/microchip-technology/ATMEGA328P-PU/ATMEGA328P-PU-ND/1914589 |
+| U1 (socket) | 1 | DIP Socket | Mill-Max Manufacturing Corp. | 115-43-328-41-001000 | https://www.digikey.com/product-detail/en/mill-max-manufacturing-corp/115-43-328-41-001000/ED90203-ND/1212100 |
 | Y1 | 1 | 16MHz | Abracon LLC | ABL-16.000MHZ-B2 | https://www.digikey.com/product-detail/en/abracon-llc/ABL-16-000MHZ-B2/535-9041-ND/675236 |

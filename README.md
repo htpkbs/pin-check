@@ -43,7 +43,7 @@ To get a PCB, you can submit the files in this repository to any PCB manufacture
 ## Components
 <a name="components" />
 
-All of the required electrical components and quantities are listed in the [bill of materials (BOM)](bom.md). You can purchase these components (or equivalent components) from DigiKey, Mouser, or anywhere else you can find them. The BOM does not include parts like keyswitches or keycaps.
+All of the required electrical components and quantities are listed in the [bill of materials (BOM)](BOM.md). You can purchase these components (or equivalent components) from DigiKey, Mouser, or anywhere else you can find them. The BOM does not include parts like keyswitches or keycaps.
 
 ## Bootloader
 <a name="bootloader" />
