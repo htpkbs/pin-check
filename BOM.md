@@ -21,5 +21,5 @@ SW1-SW6 (keyswitches), H1-H17 (just empty solder holes on the PCB), and H18-H21 
 | ![SW7](assets/photos/SW7.jpg) | SW7 | 1 | Reset | TE Connectivity ALCOSWITCH Switches | 1825910-3 | https://www.digikey.com/product-detail/en/te-connectivity-alcoswitch-switches/1825910-3/450-3354-ND/2400476 |
 | ![SW8](assets/photos/SW8.jpg) | SW8 | 1 | Boot | TE Connectivity ALCOSWITCH Switches | 1825910-2 | https://www.digikey.com/product-detail/en/te-connectivity-alcoswitch-switches/1825910-2/450-1649-ND/1632535 |
 | ![U1](assets/photos/U1.jpg) | U1 | 1 | ATmega328P-PU | Microchip Technology | ATMEGA328P-PU | https://www.digikey.com/product-detail/en/microchip-technology/ATMEGA328P-PU/ATMEGA328P-PU-ND/1914589 |
-| ![U1 socket](assets.photos/U1-socket.jpg) | U1 (socket) | 1 | DIP Socket | Mill-Max Manufacturing Corp. | 115-43-328-41-001000 | https://www.digikey.com/product-detail/en/mill-max-manufacturing-corp/115-43-328-41-001000/ED90203-ND/1212100 |
+| ![U1 socket](assets/photos/U1-socket.jpg) | U1 (socket) | 1 | DIP Socket | Mill-Max Manufacturing Corp. | 115-43-328-41-001000 | https://www.digikey.com/product-detail/en/mill-max-manufacturing-corp/115-43-328-41-001000/ED90203-ND/1212100 |
 | ![Y1](assets/photos/Y1.jpg) | Y1 | 1 | 16MHz | Abracon LLC | ABL-16.000MHZ-B2 | https://www.digikey.com/product-detail/en/abracon-llc/ABL-16-000MHZ-B2/535-9041-ND/675236 |
