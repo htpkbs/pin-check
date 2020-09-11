@@ -62,7 +62,7 @@ If you want to mount a clear acrylic window above the exposed portion of the PCB
 
 There may be instructions here for assembling the kit (soldering components onto the PCB) at some point. It should be fairly straightforward if you know how to solder. The hardest part to solder is the USB-C jack. It's helpful to apply some flux (with a flux pen) to the smaller pins, get some solder on your iron, and drag it across the pins. It's also helpful to use some sort of magnifier to make sure all of the pins are soldered correctly.
 
-Once all components are soldered onto the PCB (and **before** soldering the PCB onto your keyswitches) you should connect it with USB and press the `RESET` button while holding down the `BOOT` button. This should boot the chip into the pre-flash USBaspLoader bootloader, which should be recognized by [QMK Toolbox](https://qmk.fm/toolbox/) or avrdude. If it is not recognized, try the button combination again or check your solder joints.
+Once all components are soldered onto the PCB (and **before** soldering the PCB onto your keyswitches) you should connect it with USB and press the `RESET` button while holding down the `BOOT` button. This should boot the chip into the USBaspLoader bootloader, which should be recognized by [QMK Toolbox](https://qmk.fm/toolbox/) or avrdude. If it is not recognized, try the button combination again or check your solder joints.
 
 # Designing a Keyboard
 <a name="designing-a-keyboard" />
